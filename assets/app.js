@@ -131,11 +131,14 @@ function createMarkers() {
     marker.bindPopup(`
       <strong>${escapeHtml(place.name)}</strong>
       <br><span>${escapeHtml(hubNames[place.hub] || place.hub)}</span>
-      <br><button class="popup-add" data-place-id="${place.id}">Add to itinerary</button>
+      <br><button class="popup-details" type="button" data-place-id="${place.id}">View details</button>
+      <button class="popup-add" type="button" data-place-id="${place.id}">Add to itinerary</button>
     `);
     marker.on("popupopen", () => {
-      const button = document.querySelector(`.popup-add[data-place-id="${place.id}"]`);
-      button?.addEventListener("click", () => addToItinerary(place.id));
+      const detailsButton = document.querySelector(`.popup-details[data-place-id="${place.id}"]`);
+      const addButton = document.querySelector(`.popup-add[data-place-id="${place.id}"]`);
+      detailsButton?.addEventListener("click", () => showPlaceDetails(place.id));
+      addButton?.addEventListener("click", () => addToItinerary(place.id));
     });
     state.markers.set(place.id, marker);
   });
@@ -173,11 +176,12 @@ function renderPlaces() {
 function createPlaceCard(place) {
   const card = document.createElement("article");
   card.className = "place-card";
+  card.id = `place-card-${place.id}`;
   const isSelected = state.selectedIds.includes(place.id);
   card.innerHTML = `
     <div class="place-card-content">
       <p class="eyebrow">${escapeHtml(hubNames[place.hub] || place.hub)}</p>
-      <h3>${escapeHtml(place.name)}</h3>
+      <h3 tabindex="-1">${escapeHtml(place.name)}</h3>
       <p>${escapeHtml(place.description)}</p>
       <p class="personal-note"><strong>Personal note:</strong> ${escapeHtml(place.personalNote)}</p>
       <div class="place-meta"><span>${escapeHtml(place.bestTime)}</span><span>${escapeHtml(place.duration)}</span></div>
@@ -185,11 +189,13 @@ function createPlaceCard(place) {
         <button class="primary-button add-button" type="button" data-place-id="${place.id}">
           ${isSelected ? "Added to itinerary" : "Add to itinerary"}
         </button>
+        <button class="secondary-button map-button" type="button" data-place-id="${place.id}">Show on map</button>
         <a href="${escapeHtml(place.tourismCalgaryUrl)}" target="_blank" rel="noopener">Tourism Calgary ↗</a>
       </div>
     </div>
   `;
   card.querySelector(".add-button").addEventListener("click", () => addToItinerary(place.id));
+  card.querySelector(".map-button").addEventListener("click", () => showPlaceOnMap(place.id));
   card.addEventListener("mouseenter", () => focusPlace(place.id));
   return card;
 }
@@ -200,6 +206,21 @@ function focusPlace(placeId) {
   if (!place || !marker) return;
   state.map.setView([place.latitude, place.longitude], 14, { animate: true });
   marker.openPopup();
+}
+
+function showPlaceOnMap(placeId) {
+  focusPlace(placeId);
+  document.querySelector("#map")?.scrollIntoView({ behavior: "smooth", block: "center" });
+}
+
+function showPlaceDetails(placeId) {
+  const card = document.querySelector(`#place-card-${placeId}`);
+  if (!card) return;
+  state.map.closePopup();
+  card.classList.add("place-card-highlight");
+  card.scrollIntoView({ behavior: "smooth", block: "start" });
+  card.querySelector("h3")?.focus({ preventScroll: true });
+  window.setTimeout(() => card.classList.remove("place-card-highlight"), 1800);
 }
 
 function focusHub(hub) {
