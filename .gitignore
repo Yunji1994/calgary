@@ -1,0 +1,29 @@
+# Local reference material
+_reference/
+
+# Local development artifacts
+server.log
+server.pid
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+nul
+NUL
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node/tooling caches
+node_modules/
+.npm/
+.cache/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example

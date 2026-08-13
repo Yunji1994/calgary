@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal guide to exploring Calgary.">
+  <title>Calgary Local Exploration Guide</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="assets/styles.css?v=2">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <div>
+        <h1>Calgary Local Exploration Guide</h1>
+        <p class="intro">Explore Calgary by areas, then start building a day that suits you.</p>
+      </div>
+      <button class="itinerary-toggle" id="itinerary-toggle" type="button" aria-controls="itinerary-panel" aria-expanded="false">
+        My itinerary <span class="count-badge" id="itinerary-count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="adventure-planner" aria-labelledby="planner-heading">
+      <div class="planner-intro">
+        <h2 id="planner-heading">Choose your own Calgary adventure</h2>
+        <p id="planner-prompt">How much time do you have to explore?</p>
+      </div>
+      <div class="planner-options" id="planner-time-options">
+        <button class="planner-option" type="button" data-time="few-hours"><span>⏱️</span><strong>A few hours</strong><small>Make the most of a short visit</small></button>
+        <button class="planner-option" type="button" data-time="full-day"><span>☀️</span><strong>A full day</strong><small>Go deeper with one area</small></button>
+        <button class="planner-option" type="button" data-time="multiple-days"><span>🗓️</span><strong>More than one day</strong><small>Mix city, culture, and nature</small></button>
+      </div>
+      <div class="planner-options" id="planner-preference-options" hidden></div>
+      <div class="planner-summary" id="planner-summary" hidden>
+        <span id="planner-summary-text"></span>
+        <button class="text-button" id="reset-planner" type="button">Start over</button>
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="Explore filters">
+      <div>
+        <label for="hub-filter">Show a hub</label>
+        <select id="hub-filter">
+          <option value="all">All hubs</option>
+        </select>
+      </div>
+      <div>
+        <label for="search">Find a place</label>
+        <input id="search" type="search" placeholder="Search attractions...">
+      </div>
+    </section>
+
+    <section class="explore-layout">
+      <div>
+        <div id="map" class="map" aria-label="Map of Calgary attractions"></div>
+        <p class="map-source">Plus 15 footprint: <a href="https://services1.arcgis.com/AVP60cs0Q9PEA8rH/arcgis/rest/services/Downtown_Plus_15_Network/FeatureServer" target="_blank" rel="noopener">City of Calgary open data</a> (live layer with local fallback).</p>
+      </div>
+      <div>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Start exploring</p>
+            <h2 id="results-heading">All attractions</h2>
+          </div>
+          <p class="muted" id="results-count"></p>
+        </div>
+        <div id="place-list" class="place-list" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="itinerary-panel" id="itinerary-panel" aria-label="My itinerary" hidden>
+    <div class="panel-header">
+      <div>
+        <p class="eyebrow">Your selections</p>
+        <h2>My itinerary</h2>
+      </div>
+      <button class="icon-button" id="close-itinerary" type="button" aria-label="Close itinerary">×</button>
+    </div>
+    <p class="muted">Select places from any hub, arrange your stops, and open the route in Google Maps.</p>
+    <ol id="itinerary-list" class="itinerary-list"></ol>
+    <div class="itinerary-options">
+      <label for="travel-mode">Travel mode</label>
+      <select id="travel-mode">
+        <option value="walking">Walking</option>
+        <option value="driving">Driving</option>
+        <option value="bicycling">Bicycling</option>
+      </select>
+    </div>
+    <div class="panel-actions">
+      <button class="primary-button" id="export-itinerary" type="button">Open in Google Maps</button>
+      <button class="secondary-button" id="share-itinerary" type="button">Copy share link</button>
+    </div>
+    <p class="panel-status" id="panel-status" role="status" aria-live="polite"></p>
+    <div id="export-links" class="export-links"></div>
+    <button class="text-button" id="clear-itinerary" type="button">Clear itinerary</button>
+  </aside>
+  <div class="overlay" id="overlay" hidden></div>
+
+  <footer class="site-footer shell">
+    <p>Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>.</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>
