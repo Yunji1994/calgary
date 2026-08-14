@@ -370,14 +370,14 @@ function closeItinerary() {
 
 const adventurePreferences = {
   "few-hours": [
-    { id: "urban", label: "Iconic buildings and city energy", hubs: ["downtown"] },
-    { id: "culture", label: "Arts, music, and local neighbourhoods", hubs: ["east-village-inglewood", "beltline"] },
+    { id: "urban", label: "Iconic buildings and city energy", hubs: ["downtown", "eau-claire-river"] },
+    { id: "culture", label: "Arts, music, and local vibes", hubs: ["east-village-inglewood"] },
     { id: "river", label: "River views and scenic walks", hubs: ["eau-claire-river"] }
   ],
   "full-day": [
-    { id: "history", label: "History and vintage Calgary", hubs: ["heritage-park-glenmore"] },
+    { id: "history", label: "History and heritage", hubs: ["heritage-park-glenmore", "east-village-inglewood"] },
     { id: "nature", label: "Nature and spacious park paths", hubs: ["parks-in-the-city"] },
-    { id: "local", label: "A relaxed local day out", hubs: ["eau-claire-river", "east-village-inglewood"] }
+    { id: "local", label: "A relaxed local day out", hubs: ["downtown", "eau-claire-river", "east-village-inglewood"] }
   ],
   "multiple-days": [
     { id: "mix", label: "A balanced mix of city highlights", hubs: ["downtown", "east-village-inglewood", "eau-claire-river"] },
