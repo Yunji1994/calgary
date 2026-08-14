@@ -4,8 +4,8 @@
     "name": "Plus 15 Skywalk Network",
     "hub": "downtown",
     "category": ["walking", "architecture", "winter"],
-    "description": "Float above the bustling downtown streets through the world's most extensive skywalk network—your weather-proof portal connecting shimmering glass towers, hidden atriums, and vibrant urban plazas.",
-    "personalNote": "Use the network as a route between downtown stops; individual bridges and building hours can vary.",
+    "description": "Traverse above the bustling downtown streets through the world's most extensive skywalk network—a winter-proof maze connecting shimmering glass towers, hidden atriums, and vibrant plazas.",
+    "personalNote": "The bridges are 15 feet above ground, hence the name +15. Individual bridges and building hours varies, but most are open until 6 PM.",
     "latitude": 51.0472484,
     "longitude": -114.0677202,
     "address": "Plus 15 Network, Downtown Calgary, AB",
@@ -19,8 +19,8 @@
     "name": "Calgary Tower",
     "hub": "downtown",
     "category": ["architecture", "viewpoint"],
-    "description": "Soar 191 meters above the heart of the city for heart-pounding glass-floor views and a 360-degree panorama stretching from gleaming downtown skyscrapers all the way to the majestic Rocky Mountains.",
-    "personalNote": "A useful orientation point for a first visit to Calgary.",
+    "description": "Stand atop a glass floor 191 meters above the heart of the city and enjoy a 360-degree panorama of downtown skyscrapers all the way to the majestic Rocky Mountains.",
+    "personalNote": "There is a rotating restaurant in the tower that is actually quite good and not a tourist trap.",
     "latitude": 51.0442999,
     "longitude": -114.0631347,
     "address": "101 9 Avenue SE, Calgary, AB",
@@ -33,14 +33,14 @@
     "name": "Stephen Avenue Walk",
     "hub": "downtown",
     "category": ["architecture", "shopping", "food"],
-    "description": "Stroll down Calgary’s historic pedestrian thoroughfare, where 19th-century sandstone architecture rubs shoulders with buzzing patio culture, street performers, and eclectic boutiques.",
+    "description": "Stroll down Calgary’s historic pedestrian street, where 19th-century sandstone architecture intersect towering skyscrapers.",
     "personalNote": "Pairs naturally with the Calgary Tower and CORE shopping centre.",
     "latitude": 51.0457708,
     "longitude": -114.0669542,
     "address": "230 8 Avenue SW, Calgary, AB",
     "bestTime": "Midday or early evening",
-    "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/stephen-avenue-walk"
+    "duration": "1 hour",
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/meeting-moments-on-stephen-avenue"
   },
   {
     "id": "the-bow",
@@ -53,8 +53,8 @@
     "longitude": -114.0619603,
     "address": "500 6 Avenue SE, Calgary, AB",
     "bestTime": "Any time during daylight",
-    "duration": "30–45 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/the-bow"
+    "duration": "15 minutes",
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/10-iconic-buildings-in-calgary"
   },
   {
     "id": "central-library",
@@ -62,13 +62,13 @@
     "hub": "east-village-inglewood",
     "category": ["architecture", "culture"],
     "description": "Step inside an architectural masterpiece—a dazzling, light-filled cathedral of books and community where cascading wood stairs and soaring curves redefine modern design.",
-    "personalNote": "Allow time to walk through the building rather than viewing it only from outside.",
+    "personalNote": "Sign up for a free tour of the library while you're inside!",
     "latitude": 51.0455213,
     "longitude": -114.0550679,
     "address": "800 3 Street SE, Calgary, AB",
     "bestTime": "Daytime; check hours before visiting",
     "duration": "1 hour",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/calgary-central-library"
+    "tourismCalgaryUrl": "https://www.calgarylibrary.ca/read-learn-and-explore/central-library"
   },
   {
     "id": "studio-bell",
@@ -82,49 +82,49 @@
     "address": "850 4 Street SE, Calgary, AB",
     "bestTime": "Daytime; check hours before visiting",
     "duration": "2–3 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/studio-bell"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/indoor/studio-bell-home-of-the-national-music-centre"
   },
   {
     "id": "inglewood-main-street",
     "name": "Inglewood Main Street",
     "hub": "east-village-inglewood",
     "category": ["shopping", "food", "neighbourhood"],
-    "description": "Wander Calgary’s oldest and coolest historic strip, where bohemian indie shops, funky vintage vaults, cutting-edge art galleries, and craft breweries spill over with neighbourhood charm.",
+    "description": "Wander Calgary’s oldest neighbourhood, where indie shops, vintage vaults, cutting-edge art galleries, and craft breweries shine against a backdrop of historic relics.",
     "personalNote": "Best treated as a flexible wandering stop rather than one fixed attraction.",
     "latitude": 51.0371622,
     "longitude": -114.0238188,
     "address": "9 Avenue SE, Inglewood, Calgary, AB",
     "bestTime": "Afternoon or evening",
-    "duration": "2–3 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/neighbourhoods/inglewood"
+    "duration": "1-2 hours",
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/shopping/specialty-shops/inglewood"
   },
   {
     "id": "peace-bridge",
     "name": "Peace Bridge",
     "hub": "eau-claire-river",
     "category": ["architecture", "river", "photography"],
-    "description": "Glide across Santiago Calatrava’s futuristic red-and-white helix bridge—a striking kinetic sculpture spanning the rushing Bow River with pedestrian grace.",
+    "description": "Stroll across Santiago Calatrava’s futuristic red-and-white helix bridge—a striking kinetic sculpture spanning gracefully over the Bow River.",
     "personalNote": "Particularly photogenic in the evening and easy to pair with the RiverWalk.",
     "latitude": 51.0539136,
     "longitude": -114.0789104,
     "address": "Peace Bridge, Bow River Path (North), Calgary, AB",
     "bestTime": "Evening in summer; daylight in winter",
-    "duration": "30–60 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/peace-bridge"
+    "duration": "30 minutes",
+    "tourismCalgaryUrl": "https://calatrava.com/projects/peace-bridge-calgary.html"
   },
   {
     "id": "princes-island-park",
     "name": "Prince’s Island Park",
     "hub": "eau-claire-river",
     "category": ["park", "river", "walking"],
-    "description": "Escape to a tranquil urban island sanctuary tucked in the middle of the river, where willow-shaded trails, fluttering ducks, and vibrant festival grounds await.",
+    "description": "Escape to a tranquil island tucked in the middle of the Bow River, where willow-shaded trails, fluttering ducks, and vibrant festival grounds await.",
     "personalNote": "A good reset between downtown sightseeing stops.",
     "latitude": 51.0551846,
     "longitude": -114.0706486,
     "address": "Prince's Island Park, Calgary, AB",
     "bestTime": "Summer evening or any clear day",
-    "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/princes-island-park"
+    "duration": "1 hour",
+    "tourismCalgaryUrl": "https://www.calgary.ca/parks/princes-island-park.html"
   },
   {
     "id": "heritage-park",
@@ -132,13 +132,13 @@
     "hub": "heritage-park-glenmore",
     "category": ["history", "family"],
     "description": "Time-travel to Western Canada’s pioneer era across a sprawling living-history village complete with steam trains, vintage midway rides, and costumed townsfolk.",
-    "personalNote": "Plan for at least half a day and check the operating calendar before going.",
+    "personalNote": "Plan for at least half a day and check the operating calendar to plan the day.",
     "latitude": 50.9851984,
     "longitude": -114.1071757,
     "address": "1900 Heritage Drive SW, Calgary, AB",
     "bestTime": "Morning",
     "duration": "3–5 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/heritage-park"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/outdoor/heritage-park-historical-village"
   },
   {
     "id": "bowness-park",
