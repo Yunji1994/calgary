@@ -22,6 +22,7 @@ const hubNames = {
 
 const elements = {
   hubFilter: document.querySelector("#hub-filter"),
+  typeFilter: document.querySelector("#type-filter"),
   search: document.querySelector("#search"),
   placeList: document.querySelector("#place-list"),
   resultsHeading: document.querySelector("#results-heading"),
@@ -41,10 +42,21 @@ const elements = {
 };
 
 async function init() {
-  state.places = await fetch("data/places.json").then(response => {
-    if (!response.ok) throw new Error("Could not load place data");
-    return response.json();
-  });
+  const [placesData, foodData] = await Promise.all([
+    fetch("data/places.json").then(response => {
+      if (!response.ok) throw new Error("Could not load place data");
+      return response.json();
+    }),
+    fetch("data/food.json").then(response => {
+      if (!response.ok) throw new Error("Could not load food data");
+      return response.json();
+    })
+  ]);
+
+  state.places = [
+    ...placesData.map(p => ({ ...p, type: "attraction" })),
+    ...foodData.map(f => ({ ...f, type: "food" }))
+  ];
 
   restoreItinerary();
   state.map = L.map("map").setView([51.045, -114.07], 12);
@@ -127,7 +139,19 @@ function populateHubFilter() {
 
 function createMarkers() {
   state.places.forEach(place => {
-    const marker = L.marker([place.latitude, place.longitude]);
+    const isFood = place.type === "food";
+    const iconHtml = isFood ? '🍴' : '🏛️';
+    const iconClass = isFood ? 'map-pin food' : 'map-pin attraction';
+
+    const customIcon = L.divIcon({
+      className: '',
+      html: `<div class="${iconClass}" title="${escapeHtml(place.name)}">${iconHtml}</div>`,
+      iconSize: [32, 32],
+      iconAnchor: [16, 16],
+      popupAnchor: [0, -16]
+    });
+
+    const marker = L.marker([place.latitude, place.longitude], { icon: customIcon });
     marker.bindPopup(`
       <strong>${escapeHtml(place.name)}</strong>
       <br><span>${escapeHtml(hubNames[place.hub] || place.hub)}</span>
@@ -146,12 +170,14 @@ function createMarkers() {
 
 function getFilteredPlaces() {
   const hub = elements.hubFilter.value;
+  const type = elements.typeFilter ? elements.typeFilter.value : "all";
   const query = elements.search.value.trim().toLowerCase();
   return state.places.filter(place => {
     const matchesHub = hub === "all" || place.hub === hub;
+    const matchesType = type === "all" || place.type === type;
     const matchesAdventure = !state.adventure || state.adventure.hubs.includes(place.hub);
     const searchable = [place.name, place.description, ...(place.category || [])].join(" ").toLowerCase();
-    return matchesHub && matchesAdventure && (!query || searchable.includes(query));
+    return matchesHub && matchesType && matchesAdventure && (!query || searchable.includes(query));
   });
 }
 
@@ -160,14 +186,14 @@ function renderPlaces() {
   const selectedHub = elements.hubFilter.value;
   elements.resultsHeading.textContent = state.adventure
     ? `Recommended: ${state.adventure.preferenceLabel}`
-    : selectedHub === "all" ? "All attractions" : hubNames[selectedHub];
+    : selectedHub === "all" ? "All places & dining" : hubNames[selectedHub];
   elements.resultsCount.textContent = `${places.length} place${places.length === 1 ? "" : "s"}`;
   elements.placeList.replaceChildren();
   state.markerLayer.clearLayers();
   places.forEach(place => state.markers.get(place.id).addTo(state.markerLayer));
 
   if (!places.length) {
-    elements.placeList.innerHTML = `<p class="empty-state">No attractions match your search.</p>`;
+    elements.placeList.innerHTML = `<p class="empty-state">No places or dining match your search.</p>`;
     return;
   }
   places.forEach(place => elements.placeList.append(createPlaceCard(place)));
@@ -175,12 +201,16 @@ function renderPlaces() {
 
 function createPlaceCard(place) {
   const card = document.createElement("article");
-  card.className = "place-card";
+  const isFood = place.type === "food";
+  card.className = isFood ? "place-card food-card" : "place-card";
   card.id = `place-card-${place.id}`;
   const isSelected = state.selectedIds.includes(place.id);
+  const eyebrowText = isFood
+    ? `🍽️ Dining • ${escapeHtml(hubNames[place.hub] || place.hub)}`
+    : escapeHtml(hubNames[place.hub] || place.hub);
   card.innerHTML = `
     <div class="place-card-content">
-      <p class="eyebrow">${escapeHtml(hubNames[place.hub] || place.hub)}</p>
+      <p class="eyebrow ${isFood ? 'food-eyebrow' : ''}">${eyebrowText}</p>
       <h3 tabindex="-1">${escapeHtml(place.name)}</h3>
       <p>${escapeHtml(place.description)}</p>
       <p class="personal-note"><strong>Personal note:</strong> ${escapeHtml(place.personalNote)}</p>
@@ -190,7 +220,7 @@ function createPlaceCard(place) {
           ${isSelected ? "Added to itinerary" : "Add to itinerary"}
         </button>
         <button class="secondary-button map-button" type="button" data-place-id="${place.id}">Show on map</button>
-        <a href="${escapeHtml(place.tourismCalgaryUrl)}" target="_blank" rel="noopener">Tourism Calgary ↗</a>
+        <a href="${escapeHtml(place.tourismCalgaryUrl)}" target="_blank" rel="noopener">${isFood ? "Dining Info ↗" : "Tourism Calgary ↗"}</a>
       </div>
     </div>
   `;
@@ -430,6 +460,7 @@ function bindEvents() {
     resetAdventure();
     focusHub(elements.hubFilter.value);
   });
+  elements.typeFilter.addEventListener("change", renderPlaces);
   elements.search.addEventListener("input", renderPlaces);
   elements.plannerTimeOptions.querySelectorAll("[data-time]").forEach(button => {
     button.addEventListener("click", () => showAdventurePreferences(button.dataset.time));

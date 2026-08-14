@@ -97,6 +97,38 @@ input:focus, select:focus { border-color: var(--calgary-blue); box-shadow: 0 0 0
 .panel-status { min-height: 1.4em; margin: 12px 0 0; color: var(--muted); font-size: .87rem; }
 .export-links { display: grid; gap: 6px; margin-top: 8px; font-size: .9rem; }
 .text-button { margin-top: 16px; padding: 0; text-decoration: underline; }
+/* Map Pins */
+.map-pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+  font-size: 14px;
+  transition: transform 0.2s;
+}
+.map-pin:hover {
+  transform: scale(1.15);
+}
+.map-pin.attraction {
+  background: var(--calgary-blue);
+  border: 2px solid white;
+}
+.map-pin.food {
+  background: #D97706;
+  border: 2px solid white;
+}
+
+/* Food Cards & Badges */
+.food-card {
+  border-left: 4px solid #D97706;
+}
+.food-eyebrow {
+  color: #D97706;
+}
+
 .site-footer { padding: 34px 0; color: var(--muted); font-size: .85rem; border-top: 1px solid var(--line); margin-top: 40px; }
 @media (max-width: 800px) {
   .planner-options { grid-template-columns: 1fr; }
