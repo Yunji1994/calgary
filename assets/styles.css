@@ -56,7 +56,10 @@ input:focus, select:focus { border-color: var(--calgary-blue); box-shadow: 0 0 0
 .section-heading { display: flex; justify-content: space-between; gap: 16px; align-items: end; margin-bottom: 14px; }
 .muted { color: var(--muted); }
 .place-list { display: grid; gap: 14px; }
-.place-card { border: 1px solid var(--line); border-radius: 12px; background: var(--card); box-shadow: 0 4px 16px rgba(23,32,51,0.06); scroll-margin-top: 20px; transition: border-color .2s, box-shadow .2s, transform .2s; }
+.place-card { border: 1px solid var(--line); border-radius: 12px; background: var(--card); box-shadow: 0 4px 16px rgba(23,32,51,0.06); scroll-margin-top: 20px; overflow: hidden; transition: border-color .2s, box-shadow .2s, transform .2s; }
+.place-card-image { width: 100%; height: 200px; overflow: hidden; background: #E2E8F0; }
+.place-card-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }
+.place-card:hover .place-card-image img { transform: scale(1.03); }
 .place-card:hover { border-color: #CBD5E1; box-shadow: 0 6px 20px rgba(0,83,159,0.08); }
 .place-card-highlight { border-color: var(--calgary-blue); box-shadow: 0 0 0 3px rgba(0,83,159,0.2), 0 8px 24px rgba(0,83,159,0.12); }
 .place-card-content { padding: 20px; }
@@ -70,7 +73,11 @@ input:focus, select:focus { border-color: var(--calgary-blue); box-shadow: 0 0 0
 .card-actions a { font-size: .9rem; font-weight: 650; color: var(--calgary-blue); }
 .card-actions a:hover { color: var(--calgary-blue-dark); text-decoration: underline; }
 .primary-button { font-size: .9rem; }
-.popup-details, .popup-add { margin-top: 8px; border-radius: 6px; padding: 6px 10px; font-size: .85rem; font-weight: 700; }
+.popup-card { width: 240px; }
+.popup-thumb { width: 100%; height: 130px; object-fit: cover; border-radius: 6px; margin-bottom: 8px; }
+.popup-body { font-size: 0.9rem; line-height: 1.4; }
+.popup-actions { display: flex; gap: 6px; margin-top: 8px; }
+.popup-details, .popup-add { margin-top: 0; border-radius: 6px; padding: 6px 10px; font-size: .85rem; font-weight: 700; flex: 1; text-align: center; }
 .popup-details { border: 1px solid var(--line); background: white; color: var(--calgary-blue-dark); }
 .popup-add { border: 0; background: var(--calgary-blue); color: white; }
 .popup-details:hover { border-color: var(--calgary-blue); background: #F0F4F8; }

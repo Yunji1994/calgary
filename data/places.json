@@ -3,7 +3,11 @@
     "id": "plus-15-network",
     "name": "Plus 15 Skywalk Network",
     "hub": "downtown",
-    "category": ["walking", "architecture", "winter"],
+    "category": [
+      "walking",
+      "architecture",
+      "winter"
+    ],
     "description": "Traverse above the bustling downtown streets through the world's most extensive skywalk network—a winter-proof maze connecting shimmering glass towers, hidden atriums, and vibrant plazas.",
     "personalNote": "The bridges are 15 feet above ground, hence the name +15. Individual bridges and building hours varies, but most are open until 6 PM.",
     "latitude": 51.0472484,
@@ -12,13 +16,17 @@
     "bestTime": "Weekdays during building hours",
     "duration": "30 minutes to several hours",
     "tourismCalgaryUrl": "https://www.calgary.ca/bike-walk-roll/plus-15-network.html",
-    "mapOverlay": "plus15"
+    "mapOverlay": "plus15",
+    "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "calgary-tower",
     "name": "Calgary Tower",
     "hub": "downtown",
-    "category": ["architecture", "viewpoint"],
+    "category": [
+      "architecture",
+      "viewpoint"
+    ],
     "description": "Stand atop a glass floor 191 meters above the heart of the city and enjoy a 360-degree panorama of downtown skyscrapers all the way to the majestic Rocky Mountains.",
     "personalNote": "There is a rotating restaurant in the tower that is actually quite good and not a tourist trap.",
     "latitude": 51.0442999,
@@ -26,13 +34,18 @@
     "address": "101 9 Avenue SE, Calgary, AB",
     "bestTime": "Midday or sunset",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/calgary-tower"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/calgary-tower",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "stephen-avenue",
     "name": "Stephen Avenue Walk",
     "hub": "downtown",
-    "category": ["architecture", "shopping", "food"],
+    "category": [
+      "architecture",
+      "shopping",
+      "food"
+    ],
     "description": "Stroll down Calgary’s historic pedestrian street, where 19th-century sandstone architecture intersect towering skyscrapers.",
     "personalNote": "Pairs naturally with the Calgary Tower and CORE shopping centre.",
     "latitude": 51.0457708,
@@ -40,13 +53,17 @@
     "address": "230 8 Avenue SW, Calgary, AB",
     "bestTime": "Midday or early evening",
     "duration": "1 hour",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/meeting-moments-on-stephen-avenue"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/meeting-moments-on-stephen-avenue",
+    "imageUrl": "https://images.unsplash.com/photo-1517783999521-f3288f187a2d?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "the-bow",
     "name": "The Bow and Wonderland",
     "hub": "downtown",
-    "category": ["architecture", "public-art"],
+    "category": [
+      "architecture",
+      "public-art"
+    ],
     "description": "Behold Foster + Partners' curving architectural masterpiece, then stand awestruck beneath Jaume Plensa’s monumental 'Wonderland' wire-mesh head framing the city skyline.",
     "personalNote": "A quick stop that works well as part of a downtown walking route.",
     "latitude": 51.0478593,
@@ -54,13 +71,17 @@
     "address": "500 6 Avenue SE, Calgary, AB",
     "bestTime": "Any time during daylight",
     "duration": "15 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/10-iconic-buildings-in-calgary"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/10-iconic-buildings-in-calgary",
+    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "central-library",
     "name": "Calgary Central Library",
     "hub": "east-village-inglewood",
-    "category": ["architecture", "culture"],
+    "category": [
+      "architecture",
+      "culture"
+    ],
     "description": "Step inside an architectural masterpiece—a dazzling, light-filled cathedral of books and community where cascading wood stairs and soaring curves redefine modern design.",
     "personalNote": "Sign up for a free tour of the library while you're inside!",
     "latitude": 51.0455213,
@@ -68,13 +89,17 @@
     "address": "800 3 Street SE, Calgary, AB",
     "bestTime": "Daytime; check hours before visiting",
     "duration": "1 hour",
-    "tourismCalgaryUrl": "https://www.calgarylibrary.ca/read-learn-and-explore/central-library"
+    "tourismCalgaryUrl": "https://www.calgarylibrary.ca/read-learn-and-explore/central-library",
+    "imageUrl": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "studio-bell",
     "name": "Studio Bell, home of the National Music Centre",
     "hub": "east-village-inglewood",
-    "category": ["culture", "music"],
+    "category": [
+      "culture",
+      "music"
+    ],
     "description": "Plug into Canada’s sonic heartbeat inside a shimmering terracotta-clad architectural marvel packed with legendary instruments, interactive sound booths, and rock-and-roll history.",
     "personalNote": "Combine it with the Central Library and an onward walk toward Inglewood.",
     "latitude": 51.0445995,
@@ -82,13 +107,18 @@
     "address": "850 4 Street SE, Calgary, AB",
     "bestTime": "Daytime; check hours before visiting",
     "duration": "2–3 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/indoor/studio-bell-home-of-the-national-music-centre"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/indoor/studio-bell-home-of-the-national-music-centre",
+    "imageUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "inglewood-main-street",
     "name": "Inglewood Main Street",
     "hub": "east-village-inglewood",
-    "category": ["shopping", "food", "neighbourhood"],
+    "category": [
+      "shopping",
+      "food",
+      "neighbourhood"
+    ],
     "description": "Wander Calgary’s oldest neighbourhood, where indie shops, vintage vaults, cutting-edge art galleries, and craft breweries shine against a backdrop of historic relics.",
     "personalNote": "Best treated as a flexible wandering stop rather than one fixed attraction.",
     "latitude": 51.0371622,
@@ -96,13 +126,18 @@
     "address": "9 Avenue SE, Inglewood, Calgary, AB",
     "bestTime": "Afternoon or evening",
     "duration": "1-2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/shopping/specialty-shops/inglewood"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/shopping/specialty-shops/inglewood",
+    "imageUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "peace-bridge",
     "name": "Peace Bridge",
     "hub": "eau-claire-river",
-    "category": ["architecture", "river", "photography"],
+    "category": [
+      "architecture",
+      "river",
+      "photography"
+    ],
     "description": "Stroll across Santiago Calatrava’s futuristic red-and-white helix bridge—a striking kinetic sculpture spanning gracefully over the Bow River.",
     "personalNote": "Particularly photogenic in the evening and easy to pair with the RiverWalk.",
     "latitude": 51.0539136,
@@ -110,13 +145,18 @@
     "address": "Peace Bridge, Bow River Path (North), Calgary, AB",
     "bestTime": "Evening in summer; daylight in winter",
     "duration": "30 minutes",
-    "tourismCalgaryUrl": "https://calatrava.com/projects/peace-bridge-calgary.html"
+    "tourismCalgaryUrl": "https://calatrava.com/projects/peace-bridge-calgary.html",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/peace-bridge.jpg"
   },
   {
     "id": "princes-island-park",
     "name": "Prince’s Island Park",
     "hub": "eau-claire-river",
-    "category": ["park", "river", "walking"],
+    "category": [
+      "park",
+      "river",
+      "walking"
+    ],
     "description": "Escape to a tranquil island tucked in the middle of the Bow River, where willow-shaded trails, fluttering ducks, and vibrant festival grounds await.",
     "personalNote": "A good reset between downtown sightseeing stops.",
     "latitude": 51.0551846,
@@ -124,13 +164,17 @@
     "address": "Prince's Island Park, Calgary, AB",
     "bestTime": "Summer evening or any clear day",
     "duration": "1 hour",
-    "tourismCalgaryUrl": "https://www.calgary.ca/parks/princes-island-park.html"
+    "tourismCalgaryUrl": "https://www.calgary.ca/parks/princes-island-park.html",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/princes-island.jpg"
   },
   {
     "id": "heritage-park",
     "name": "Heritage Park Historical Village",
     "hub": "heritage-park-glenmore",
-    "category": ["history", "family"],
+    "category": [
+      "history",
+      "family"
+    ],
     "description": "Time-travel to Western Canada’s pioneer era across a sprawling living-history village complete with steam trains, vintage midway rides, and costumed townsfolk.",
     "personalNote": "Plan for at least half a day and check the operating calendar to plan the day.",
     "latitude": 50.9851984,
@@ -138,13 +182,18 @@
     "address": "1900 Heritage Drive SW, Calgary, AB",
     "bestTime": "Morning",
     "duration": "3–5 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/outdoor/heritage-park-historical-village"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/outdoor/heritage-park-historical-village",
+    "imageUrl": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "bowness-park",
     "name": "Bowness Park",
     "hub": "parks-in-the-city",
-    "category": ["park", "family", "river"],
+    "category": [
+      "park",
+      "family",
+      "river"
+    ],
     "description": "Unwind beside a glistening river lagoon in a beloved park where summer paddleboats and winter ice-skating trails create pure seasonal magic.",
     "personalNote": "Summer boating and winter skating give the park very different personalities.",
     "latitude": 51.0967281,
@@ -152,13 +201,18 @@
     "address": "8900 48 Avenue NW, Bowness, Calgary, AB",
     "bestTime": "Any time; activities are seasonal",
     "duration": "2–3 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/bowness-park"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/bowness-park",
+    "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "fish-creek-park",
     "name": "Fish Creek Provincial Park",
     "hub": "parks-in-the-city",
-    "category": ["park", "nature", "cycling"],
+    "category": [
+      "park",
+      "nature",
+      "cycling"
+    ],
     "description": "Lose yourself in one of North America’s largest urban provincial parks, where wild deer graze through ancient cottonwood forests and sun-dappled creek trails.",
     "personalNote": "Choose a specific entrance or trailhead before visiting; the park is very large.",
     "latitude": 50.9294558,
@@ -166,13 +220,18 @@
     "address": "Fish Creek Provincial Park, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "2 hours to a full day",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/fish-creek-provincial-park"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/fish-creek-provincial-park",
+    "imageUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "fish-creek-park-east",
     "name": "Fish Creek Provincial Park — East Entrance",
     "hub": "parks-in-the-city",
-    "category": ["park", "nature", "cycling"],
+    "category": [
+      "park",
+      "nature",
+      "cycling"
+    ],
     "description": "Discover the secluded eastern gateway to Fish Creek, where historic Bow Valley Ranch buildings meet tranquil riverside pathways and whispering aspen groves.",
     "personalNote": "Use this east-side entrance when exploring the park from Bow Bottom Trail; conditions and access can vary by season.",
     "latitude": 50.90383443197458,
@@ -180,13 +239,17 @@
     "address": "Bow Valley Ranch, 15975 Bow Bottom Trail SE, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "2 hours to a full day",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/fish-creek-provincial-park"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/fish-creek-provincial-park",
+    "imageUrl": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "family-of-man",
     "name": "The Family of Man",
     "hub": "downtown",
-    "category": ["public-art", "history"],
+    "category": [
+      "public-art",
+      "history"
+    ],
     "description": "Gaze up at Mario Armengol’s iconic bronze figures standing tall against the skyline, representing the enduring spirit of humanity in the heart of downtown.",
     "personalNote": "A quick public-art stop near The Bow and Stephen Avenue.",
     "latitude": 51.0477591,
@@ -194,13 +257,17 @@
     "address": "6 Avenue SE, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "15–30 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "tenth-and-tenth-mural",
     "name": "10th & 10th Mural",
     "hub": "downtown",
-    "category": ["public-art", "photography"],
+    "category": [
+      "public-art",
+      "photography"
+    ],
     "description": "Turn the corner into an open-air gallery where vibrant, larger-than-life street art transforms an ordinary downtown intersection into a striking visual landmark.",
     "personalNote": "Pin the mural itself rather than treating the whole block as the destination.",
     "latitude": 51.0431311,
@@ -208,41 +275,54 @@
     "address": "First on Tenth, 123 10 Avenue SW, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "15–30 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/mural.jpg"
   },
   {
     "id": "core-shopping-centre",
     "name": "CORE Shopping Centre and Devonian Gardens",
     "hub": "downtown",
-    "category": ["shopping", "garden", "architecture"],
+    "category": [
+      "shopping",
+      "garden",
+      "architecture"
+    ],
     "description": "Shop under soaring glass vaults before stepping directly into a lush, tropical indoor jungle hidden high above the downtown streets.",
     "personalNote": "A useful indoor stop in winter and a natural Plus 15 connection.",
     "latitude": 51.0462283,
-    "longitude": -114.0687580,
+    "longitude": -114.068758,
     "address": "317 7 Avenue SW, Calgary, AB",
     "bestTime": "During centre hours",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1555529771-835f59fc5efe?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "devonian-gardens",
     "name": "Devonian Gardens",
     "hub": "downtown",
-    "category": ["garden", "family"],
+    "category": [
+      "garden",
+      "family"
+    ],
     "description": "Breathe in the humidity of a lush indoor oasis featuring tropical palms, reflecting pools, and quiet pathways suspended high above the city chill.",
     "personalNote": "Especially useful as a warm, quiet break during a downtown walk.",
     "latitude": 51.0462283,
-    "longitude": -114.0687580,
+    "longitude": -114.068758,
     "address": "317 7 Avenue SW, Calgary, AB",
     "bestTime": "During CORE hours",
     "duration": "30–60 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "eighth-avenue-place",
     "name": "Eighth Avenue Place",
     "hub": "downtown",
-    "category": ["architecture", "public-art"],
+    "category": [
+      "architecture",
+      "public-art"
+    ],
     "description": "Soak in the soaring, light-soaked architecture and striking art installations of one of downtown’s most elegant corporate and cultural crossroads.",
     "personalNote": "Use it as a Plus 15 connection from CORE; has a Starbucks.",
     "latitude": 51.0454664,
@@ -250,13 +330,17 @@
     "address": "513 8 Avenue SW, Calgary, AB",
     "bestTime": "Weekdays during building hours",
     "duration": "15–30 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "udderly-art-pasture",
     "name": "Udderly Art Pasture",
     "hub": "downtown",
-    "category": ["public-art", "family"],
+    "category": [
+      "public-art",
+      "family"
+    ],
     "description": "Spot an unexpected herd of whimsically painted, larger-than-life fiberglass cows adding a splash of quirky artistic joy to the urban streetscape.",
     "personalNote": "The current legacy display is associated with Centennial Parkade; confirm the display before visiting.",
     "latitude": 51.04511070167294,
@@ -264,27 +348,36 @@
     "address": "608 9 Avenue SW, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "10-15 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "seventeenth-avenue",
     "name": "17th Avenue SW",
     "hub": "beltline",
-    "category": ["food", "shopping", "nightlife"],
+    "category": [
+      "food",
+      "shopping",
+      "nightlife"
+    ],
     "description": "Dive headfirst into Calgary’s legendary 'Red Mile,' where sun-soaked patios, trendy boutiques, and world-class culinary hotspots pulse with electric energy.",
     "personalNote": "Best explored as a flexible evening stroll rather than a single stop.",
     "latitude": 51.0376,
-    "longitude": -114.0780,
+    "longitude": -114.078,
     "address": "17 Avenue SW and 8 Street SW, Calgary, AB",
     "bestTime": "Evening for nightlife; daytime for shopping",
     "duration": "2–4 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/neighbourhoods/beltline"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/neighbourhoods/beltline",
+    "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "bump-mural-project",
     "name": "BUMP Mural Project — World’s Tallest Mural",
     "hub": "beltline",
-    "category": ["public-art", "photography"],
+    "category": [
+      "public-art",
+      "photography"
+    ],
     "description": "Tilt your head all the way back to marvel at a jaw-dropping monumental skyscraper mural that turns Calgary's skyline into a living canvas.",
     "personalNote": "Pinned to First on Tenth at 123 10 Avenue SW, the location of the world’s-tallest-mural project.",
     "latitude": 51.0431311,
@@ -292,13 +385,18 @@
     "address": "First on Tenth, 123 10 Avenue SW, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "15–30 minutes",
-    "tourismCalgaryUrl": "https://yycbump.ca/projects/worlds-tallest-mural/"
+    "tourismCalgaryUrl": "https://yycbump.ca/projects/worlds-tallest-mural/",
+    "imageUrl": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "lougheed-house",
     "name": "Lougheed House",
     "hub": "beltline",
-    "category": ["history", "architecture", "garden"],
+    "category": [
+      "history",
+      "architecture",
+      "garden"
+    ],
     "description": "Step back into the opulent Victorian era inside a magnificent 1891 sandstone estate surrounded by immaculately manicured historic gardens.",
     "personalNote": "A calmer contrast to the restaurants and nightlife of 17th Avenue.",
     "latitude": 51.0405964,
@@ -306,13 +404,18 @@
     "address": "707 13 Avenue SW, Calgary, AB",
     "bestTime": "Daytime; check hours before visiting",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/lougheed-house"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/lougheed-house",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "the-confluence",
     "name": "The Confluence Historic Site and Parkland",
     "hub": "east-village-inglewood",
-    "category": ["history", "park", "river"],
+    "category": [
+      "history",
+      "park",
+      "river"
+    ],
     "description": "Stand at the sacred meeting of the Bow and Elbow Rivers, where centuries of Indigenous heritage and Calgary’s founding stories come alive in expansive parklands.",
     "personalNote": "The site is the modern successor to the Fort Calgary location and redevelopment.",
     "latitude": 51.0450561,
@@ -320,13 +423,18 @@
     "address": "750 9 Avenue SE, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/the-confluence"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/the-confluence",
+    "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "st-patricks-island",
     "name": "St. Patrick’s Island",
     "hub": "east-village-inglewood",
-    "category": ["park", "river", "walking"],
+    "category": [
+      "park",
+      "river",
+      "walking"
+    ],
     "description": "Cross over to an award-winning island escape featuring sculptural play spaces, pebble beaches, a dramatic rising lookout mound, and tranquil river channels.",
     "personalNote": "A natural extension of an East Village and RiverWalk outing.",
     "latitude": 51.04741759621095,
@@ -334,13 +442,17 @@
     "address": "St. Patrick’s Island, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/st-patricks-island"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/st-patricks-island",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "esker-foundation",
     "name": "Esker Foundation",
     "hub": "east-village-inglewood",
-    "category": ["art", "culture"],
+    "category": [
+      "art",
+      "culture"
+    ],
     "description": "Immerse your senses in thought-provoking, cutting-edge contemporary art inside a sunlit, beautifully curated gallery space overlooking Inglewood.",
     "personalNote": "Check the current exhibition and hours before building it into a route.",
     "latitude": 51.042511199002966,
@@ -348,13 +460,17 @@
     "address": "1011 9 Avenue SE, Calgary, AB",
     "bestTime": "Daytime; check gallery hours",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "cold-garden-brewery",
     "name": "Cold Garden Beverage Company",
     "hub": "east-village-inglewood",
-    "category": ["food", "drink"],
+    "category": [
+      "food",
+      "drink"
+    ],
     "description": "Sip insanely creative craft beers amidst astro-turf, eclectic vintage furniture, and a delightfully welcoming neighbourhood brew-pub vibe.",
     "personalNote": "A good brewery stop when extending the Inglewood walk south and east.",
     "latitude": 51.0395331,
@@ -362,13 +478,18 @@
     "address": "1100 11 Street SE, Calgary, AB",
     "bestTime": "Afternoon or evening",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/cold-garden.jpg"
   },
   {
     "id": "mchugh-bluff",
     "name": "Crescent Heights Lookout / McHugh Bluff",
     "hub": "eau-claire-river",
-    "category": ["viewpoint", "photography", "walking"],
+    "category": [
+      "viewpoint",
+      "photography",
+      "walking"
+    ],
     "description": "Conquer the scenic wooden staircase to the clifftop rim for an unbeatable, postcard-worthy panorama of the downtown skyline framed by the river valley.",
     "personalNote": "One of the strongest skyline viewpoints in the city; allow time for the stairs.",
     "latitude": 51.0588862,
@@ -376,13 +497,18 @@
     "address": "McHugh Bluff Stairs, Calgary, AB",
     "bestTime": "Evening in summer; daylight in winter",
     "duration": "30–60 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/mchugh-bluff.jpg"
   },
   {
     "id": "eau-claire-plaza",
     "name": "Eau Claire Plaza",
     "hub": "eau-claire-river",
-    "category": ["river", "park", "walking"],
+    "category": [
+      "river",
+      "park",
+      "walking"
+    ],
     "description": "Bask in riverside relaxation at a vibrant downtown gathering square where shimmering fountains and bustling pathway cyclists set the rhythm of the city.",
     "personalNote": "Check current construction and access conditions before visiting.",
     "latitude": 51.0531048,
@@ -390,13 +516,18 @@
     "address": "Eau Claire Plaza, Calgary, AB",
     "bestTime": "Summer evening",
     "duration": "30–60 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "riverwalk-west",
     "name": "RiverWalk — West Side",
     "hub": "eau-claire-river",
-    "category": ["river", "walking", "cycling"],
+    "category": [
+      "river",
+      "walking",
+      "cycling"
+    ],
     "description": "Cruise along golden riverbanks on sun-drenched pathways linking Calgary’s finest parks, bridges, and waterside vistas.",
     "personalNote": "Connect it with Eau Claire, Prince’s Island Park, and Peace Bridge.",
     "latitude": 51.0552,
@@ -404,13 +535,18 @@
     "address": "Bow River pathway, Calgary, AB",
     "bestTime": "Any clear day",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "gasoline-alley",
     "name": "Gasoline Alley Museum",
     "hub": "heritage-park-glenmore",
-    "category": ["history", "museum", "family"],
+    "category": [
+      "history",
+      "museum",
+      "family"
+    ],
     "description": "Marvel at a breathtaking collection of pristine vintage automobiles, neon signs, and early 20th-century Americana frozen in golden-age splendour.",
     "personalNote": "It is included with Heritage Park admission and is worth allowing extra time for.",
     "latitude": 50.9829064,
@@ -418,27 +554,37 @@
     "address": "1900 Heritage Drive SW, Calgary, AB",
     "bestTime": "Morning or early afternoon",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "baker-park",
     "name": "Baker Park",
     "hub": "parks-in-the-city",
-    "category": ["park", "river", "walking"],
+    "category": [
+      "park",
+      "river",
+      "walking"
+    ],
     "description": "Unwind in immaculate formal riverside gardens featuring sweeping lawns, reflecting pools, and serene picnic spots overlooking the bend of the Bow.",
     "personalNote": "A natural pairing with Bowness Park, although they are not the same park.",
     "latitude": 51.1008513,
-    "longitude": -114.2204120,
+    "longitude": -114.220412,
     "address": "Baker Park, Calgary, AB",
     "bestTime": "Any clear day",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "nose-hill-park",
     "name": "Nose Hill Park",
     "hub": "parks-in-the-city",
-    "category": ["park", "nature", "viewpoint"],
+    "category": [
+      "park",
+      "nature",
+      "viewpoint"
+    ],
     "description": "Roam free across one of North America’s largest municipal parks, where native grassland prairies, grazing wildlife, and boundless mountain horizons stretch forever.",
     "personalNote": "Choose a trailhead before visiting because the park has many entrances.",
     "latitude": 51.1111588,
@@ -446,13 +592,18 @@
     "address": "Nose Hill Park, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "1–3 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "inglewood-bird-sanctuary",
     "name": "Inglewood Bird Sanctuary",
     "hub": "parks-in-the-city",
-    "category": ["park", "nature", "wildlife"],
+    "category": [
+      "park",
+      "nature",
+      "wildlife"
+    ],
     "description": "Slip into a tranquil, wildlife-rich sanctuary where whispering wetlands and shaded forest trails offer a serene escape from the urban rush.",
     "personalNote": "A quieter alternative to the busier Inglewood commercial strip.",
     "latitude": 51.0278952,
@@ -460,41 +611,55 @@
     "address": "2425 9 Avenue SE, Calgary, AB",
     "bestTime": "Morning or daylight hours",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "north-glenmore-park",
     "name": "North Glenmore Park",
     "hub": "parks-in-the-city",
-    "category": ["park", "reservoir", "walking"],
+    "category": [
+      "park",
+      "reservoir",
+      "walking"
+    ],
     "description": "Bask in sparkling reservoir vistas and gentle breezes along scenic waterfront trails in this beloved lakeside haven.",
     "personalNote": "Good for a slower walk, especially when paired with Glenmore Reservoir activities.",
     "latitude": 51.0025334,
-    "longitude": -114.1129030,
+    "longitude": -114.112903,
     "address": "North Glenmore Park, Calgary, AB",
     "bestTime": "Any clear day",
     "duration": "1–3 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "bow-river-rafting",
     "name": "Bow River Rafting from Edworthy Park",
     "hub": "other-attractions",
-    "category": ["river", "summer", "adventure"],
-    "description": "Ride the glacial currents on an epic summer river float, paddling crystal-clear waters beneath wide-open Albertan skies.",
-    "personalNote": "Use a current outfitter and check water conditions; this is weather- and season-dependent.",
+    "category": [
+      "river",
+      "summer",
+      "adventure"
+    ],
+    "description": "Ride the glacial currents on a relaxing summer river float, paddling crystal-clear waters beneath wide-open Albertan skies.",
+    "personalNote": "There are a few raft rental companies who also offer shuttle buses back to the starting point. Check their websites for details.",
     "latitude": 51.0592583,
     "longitude": -114.1605573,
     "address": "Edworthy Park, Calgary, AB",
     "bestTime": "Hot summer days",
     "duration": "Half day",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.lazydayraftrentals.com/",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/rafting.jpg"
   },
   {
     "id": "calgary-zoo",
     "name": "Calgary Zoo",
     "hub": "other-attractions",
-    "category": ["family", "wildlife"],
+    "category": [
+      "family",
+      "wildlife"
+    ],
     "description": "Embark on a wild global safari across lush botanical gardens and immersive animal habitats at one of Canada’s premier zoos.",
     "personalNote": "Arrive early for a more comfortable visit and better animal activity.",
     "latitude": 51.0454337,
@@ -502,13 +667,18 @@
     "address": "1300 Zoo Road NE, Calgary, AB",
     "bestTime": "Early morning",
     "duration": "3–5 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/calgary-zoo"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/calgary-zoo",
+    "imageUrl": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "winsport",
     "name": "WinSport / Canada Olympic Park",
     "hub": "other-attractions",
-    "category": ["family", "adventure", "sports"],
+    "category": [
+      "family",
+      "adventure",
+      "sports"
+    ],
     "description": "Feed your adrenaline at Calgary’s legendary Olympic playground, featuring downhill karting, soaring ziplines, and world-class athletic thrills.",
     "personalNote": "Downhill karting and other activities are seasonal; check the current calendar.",
     "latitude": 51.0823966,
@@ -516,13 +686,17 @@
     "address": "88 Canada Olympic Road SW, Calgary, AB",
     "bestTime": "Season-dependent",
     "duration": "2–4 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "cobbs-adventure-park",
     "name": "Cobb’s Adventure Park",
     "hub": "other-attractions",
-    "category": ["family", "adventure"],
+    "category": [
+      "family",
+      "adventure"
+    ],
     "description": "Dive into pure family-friendly pandemonium across bouncy pillows, petting farms, mini-golf courses, and action-packed outdoor mazes.",
     "personalNote": "Confirm the current opening dates and activities before visiting.",
     "latitude": 51.06692752408581,
@@ -530,13 +704,18 @@
     "address": "1500 84 Street NE, Calgary, AB",
     "bestTime": "Summer; check seasonal hours",
     "duration": "2–4 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "sam-centre",
     "name": "SAM Centre and Calgary Stampede Grounds",
     "hub": "other-attractions",
-    "category": ["culture", "history", "family"],
+    "category": [
+      "culture",
+      "history",
+      "family"
+    ],
     "description": "Saddle up for an immersive, high-tech celebration of Calgary’s legendary cowboy culture and Stampede history.",
     "personalNote": "Check whether the Stampede itself is operating before planning a grounds visit.",
     "latitude": 51.0403685,
@@ -544,13 +723,18 @@
     "address": "1911 Big Four Trail SE, Calgary, AB",
     "bestTime": "Daytime; check hours and event dates",
     "duration": "2–3 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/sam-centre"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/sam-centre",
+    "imageUrl": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "hangar-flight-museum",
     "name": "The Hangar Flight Museum",
     "hub": "other-attractions",
-    "category": ["museum", "history", "family"],
+    "category": [
+      "museum",
+      "history",
+      "family"
+    ],
     "description": "Walk among legendary vintage aircraft and aerospace marvels that chronicle Canada’s daring aviation pioneers.",
     "personalNote": "A good indoor option and an easy pairing with the Calgary Zoo area.",
     "latitude": 51.0939735,
@@ -558,20 +742,26 @@
     "address": "4629 McCall Way NE, Calgary, AB",
     "bestTime": "Daytime; check hours",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "telus-spark",
     "name": "TELUS Spark Science Centre",
     "hub": "other-attractions",
-    "category": ["science", "family", "museum"],
+    "category": [
+      "science",
+      "family",
+      "museum"
+    ],
     "description": "Ignite your imagination across mind-bending interactive galleries, high-tech maker labs, and dazzling planetarium dome shows.",
     "personalNote": "Allow several hours if visiting with children; check special programming in advance.",
     "latitude": 51.0538728,
-    "longitude": -114.0244390,
+    "longitude": -114.024439,
     "address": "220 St. George’s Drive NE, Calgary, AB",
     "bestTime": "Daytime; check hours",
     "duration": "2–4 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=800&q=80"
   }
 ]

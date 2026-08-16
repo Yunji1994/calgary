@@ -3,7 +3,13 @@
     "id": "klein-harris",
     "name": "Klein / Harris",
     "hub": "downtown",
-    "category": ["food", "canadian", "fine-dining", "lunch", "dinner"],
+    "category": [
+      "food",
+      "canadian",
+      "fine-dining",
+      "lunch",
+      "dinner"
+    ],
     "description": "If you've ever wondered what Canadian cuisine really is beyond poutine and maple syrup, go to this hidden gem! Everything is local, fresh, and inventive.",
     "personalNote": "Perfect stop while visiting Stephen Avenue.",
     "latitude": 51.04586740209257,
@@ -11,146 +17,208 @@
     "address": "110 8 Ave SW, Calgary, AB",
     "bestTime": "Lunch and dinner",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
+    "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "kawa-espresso-bar",
     "name": "Kawa Espresso Bar",
     "hub": "beltline",
-    "category": ["food", "cafe", "bar", "coffee", "music"],
+    "category": [
+      "food",
+      "cafe",
+      "bar",
+      "coffee",
+      "music"
+    ],
     "description": "They've got it all - licensed bar, great coffee, great food, and often have local musician performances. Part of Calgary's jazz scene.",
     "personalNote": "Great spot for coffee, drinks, and local music.",
     "address": "1333 8 St SW #101, Calgary, AB",
-    "latitude": 51.04056629737495, 
+    "latitude": 51.04056629737495,
     "longitude": -114.08182135796656,
     "bestTime": "Late night hangouts & coffee",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
+    "imageUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "bridgette-bar",
     "name": "Bridgette Bar",
     "hub": "beltline",
-    "category": ["food", "fine-dining", "bar", "dinner"],
+    "category": [
+      "food",
+      "fine-dining",
+      "bar",
+      "dinner"
+    ],
     "description": "Fine dining done right. Popular venue for date nights and corporate parties.",
     "personalNote": "An upscale favorite for date nights on 10th Ave.",
     "address": "739 10 Ave SW, Calgary, AB",
-    "latitude": 51.04376240899216, 
+    "latitude": 51.04376240899216,
     "longitude": -114.07864904447416,
     "bestTime": "Evening / Dinner",
     "duration": "2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
+    "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "posto-pizzeria",
     "name": "Posto Pizzeria & Bar",
     "hub": "beltline",
-    "category": ["food", "pizza", "casual-dining", "drinks"],
+    "category": [
+      "food",
+      "pizza",
+      "casual-dining",
+      "drinks"
+    ],
     "description": "Can't beat their happy hour half-price pizzas after 9PM.",
     "personalNote": "Unbeatable late-night pizza deal in the Beltline.",
     "address": "1013 8 St SW, Calgary, AB",
-    "latitude": 51.04381108359771, 
+    "latitude": 51.04381108359771,
     "longitude": -114.08116123587672,
     "bestTime": "Evening & late night",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
+    "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "kama",
     "name": "Kama",
     "hub": "beltline",
-    "category": ["food", "tapas", "fine-dining", "dinner"],
+    "category": [
+      "food",
+      "tapas",
+      "fine-dining",
+      "dinner"
+    ],
     "description": "Tapas tapas tapas - hard to describe this place since I can't pronounce half the ingredients on the menu. Prepare to feel uncultured!",
     "personalNote": "Incredible selection of Spanish-inspired tapas sharing plates.",
     "address": "211 11 Ave SW, Calgary, AB",
-    "latitude": 51.042532597073134, 
+    "latitude": 51.042532597073134,
     "longitude": -114.06713208680237,
     "bestTime": "Dinner",
     "duration": "2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
+    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "zcrew-cafe",
     "name": "ZCREW Cafe",
     "hub": "east-village-inglewood",
-    "category": ["food", "brunch", "cafe"],
+    "category": [
+      "food",
+      "brunch",
+      "cafe"
+    ],
     "description": "My top recommendation for dine-in brunch. Reservations recommended.",
     "personalNote": "Arrive early or book ahead for an exceptional brunch experience.",
     "address": "626 6 Ave SE, Calgary, AB",
-    "latitude": 51.04206465821905, 
+    "latitude": 51.04206465821905,
     "longitude": -114.05567018865369,
     "bestTime": "Morning / Brunch",
     "duration": "1–1.5 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/ZCREW.jpg"
   },
   {
     "id": "village-ice-cream",
     "name": "Village Ice Cream",
     "hub": "east-village-inglewood",
-    "category": ["food", "dessert", "ice-cream"],
+    "category": [
+      "food",
+      "dessert",
+      "ice-cream"
+    ],
     "description": "This is where the local small-batch ice cream craze all started. I recommend their melted chocolate and north 49 honeyberry.",
     "personalNote": "A legendary local sweet treat stop after exploring the East Village or RiverWalk.",
     "address": "431 10 Ave SE, Calgary, AB",
-    "latitude": 51.042938160327274, 
+    "latitude": 51.042938160327274,
     "longitude": -114.05397784993943,
     "bestTime": "Afternoon or evening",
     "duration": "30 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
+    "imageUrl": "https://images.unsplash.com/photo-1560008511-11c63416e52d?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "vero-bistro-moderne",
     "name": "Vero Bistro Moderne",
     "hub": "eau-claire-river",
-    "category": ["food", "fine-dining", "french", "italian"],
+    "category": [
+      "food",
+      "fine-dining",
+      "french",
+      "italian"
+    ],
     "description": "A small chef-driven restaurant in the heart of Kensington offering exquisite modern bistro fare.",
     "personalNote": "Intimate atmosphere and exceptional culinary execution just across the river from Eau Claire.",
     "address": "209 10 St NW, Calgary, AB",
-    "latitude": 51.05321387801155, 
+    "latitude": 51.05321387801155,
     "longitude": -114.08599048495073,
     "bestTime": "Dinner",
     "duration": "2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
+    "imageUrl": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "bubblemania",
     "name": "Bubblemania",
     "hub": "other-attractions",
-    "category": ["food", "drinks", "snacks", "bubble-tea"],
+    "category": [
+      "food",
+      "drinks",
+      "snacks",
+      "bubble-tea"
+    ],
     "description": "The hangout place for all the Asian families in town. Go for a taste of Taiwanese snacks and bubble tea!",
     "personalNote": "Cozy spot for authentic bubble tea and comforting snacks in Chinatown.",
     "address": "455 16 Ave NE, Calgary, AB",
-    "latitude": 51.06675252605452, 
+    "latitude": 51.06675252605452,
     "longitude": -114.05381308680121,
     "bestTime": "Afternoon or evening",
     "duration": "45 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
+    "imageUrl": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "ikusa-izakaya",
     "name": "Ikusa Izakaya",
     "hub": "other-attractions",
-    "category": ["food", "sushi", "japanese", "ramen", "casual-dining"],
+    "category": [
+      "food",
+      "sushi",
+      "japanese",
+      "ramen",
+      "casual-dining"
+    ],
     "description": "Calgary-based chain for quality sushi, Japanese BBQ and ramen at reasonable prices.",
     "personalNote": "Great casual spot for comforting bowls of ramen and grilled skewers.",
     "address": "903 General Ave NE, Calgary, AB",
-    "latitude": 51.053158619711006, 
+    "latitude": 51.053158619711006,
     "longitude": -114.04123835796604,
     "bestTime": "Lunch or dinner",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
+    "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "fourth-spot-kitchen",
     "name": "4th Spot Kitchen & Bar",
     "hub": "other-attractions",
-    "category": ["food", "gastropub", "casual-dining", "burgers", "pizza"],
+    "category": [
+      "food",
+      "gastropub",
+      "casual-dining",
+      "burgers",
+      "pizza"
+    ],
     "description": "A trendy neighborhood gastropub serving comfort food like pizza, burgers, and pasta.",
     "personalNote": "A relaxed local neighborhood hub with fantastic comfort food.",
     "address": "2620 4 St NW, Calgary, AB",
-    "latitude": 51.07613855513811, 
+    "latitude": 51.07613855513811,
     "longitude": -114.07146077701097,
     "bestTime": "Lunch or dinner",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
+    "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
   }
 ]

@@ -20,12 +20,23 @@ const hubNames = {
   "other-attractions": "Other Things to Do and Attractions"
 };
 
+const hubDescriptions = {
+  downtown: "Calgary's bustling commercial heart, featuring soaring skyscrapers, historic Stephen Avenue pedestrian walk, the extensive underground and above-ground Plus 15 skywalk network, and iconic landmarks like the Calgary Tower.",
+  beltline: "A vibrant, walkable urban neighbourhood just south of downtown known for its lively restaurant and patio culture, trendy coffee shops, craft breweries, and eclectic nightlife.",
+  "east-village-inglewood": "Where Calgary's oldest historic neighbourhood meets futuristic urban design. Explore indie boutiques, antique shops, craft makers, the striking Central Library, and Studio Bell along the river.",
+  "eau-claire-river": "A scenic natural corridor along the Bow River featuring Prince's Island Park, the architectural masterpiece Peace Bridge, and miles of picturesque pathways ideal for walking and cycling.",
+  "heritage-park-glenmore": "Step back in time at Western Canada's largest living history museum, surrounded by the scenic waters and recreational trails of the Glenmore Reservoir.",
+  "parks-in-the-city": "Expansive natural parks, river valleys, and serene green spaces offering a tranquil escape into nature right within the city limits.",
+  "other-attractions": "A collection of unique cultural destinations, museums, and notable attractions scattered across Calgary."
+};
+
 const elements = {
   hubFilter: document.querySelector("#hub-filter"),
   typeFilter: document.querySelector("#type-filter"),
   search: document.querySelector("#search"),
   placeList: document.querySelector("#place-list"),
   resultsHeading: document.querySelector("#results-heading"),
+  hubDescription: document.querySelector("#hub-description"),
   resultsCount: document.querySelector("#results-count"),
   itineraryCount: document.querySelector("#itinerary-count"),
   itineraryPanel: document.querySelector("#itinerary-panel"),
@@ -152,11 +163,18 @@ function createMarkers() {
     });
 
     const marker = L.marker([place.latitude, place.longitude], { icon: customIcon });
+    const imageUrl = place.imageUrl || 'https://images.unsplash.com/photo-1508873696983-2df5c92091c7?auto=format&fit=crop&w=800&q=80';
     marker.bindPopup(`
-      <strong>${escapeHtml(place.name)}</strong>
-      <br><span>${escapeHtml(hubNames[place.hub] || place.hub)}</span>
-      <br><button class="popup-details" type="button" data-place-id="${place.id}">View details</button>
-      <button class="popup-add" type="button" data-place-id="${place.id}">Add to itinerary</button>
+      <div class="popup-card">
+        <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(place.name)}" class="popup-thumb" loading="lazy">
+        <div class="popup-body">
+          <strong>${escapeHtml(place.name)}</strong>
+          <div class="popup-actions">
+            <button class="popup-details" type="button" data-place-id="${place.id}">View details</button>
+            <button class="popup-add" type="button" data-place-id="${place.id}">Add to itinerary</button>
+          </div>
+        </div>
+      </div>
     `);
     marker.on("popupopen", () => {
       const detailsButton = document.querySelector(`.popup-details[data-place-id="${place.id}"]`);
@@ -187,6 +205,16 @@ function renderPlaces() {
   elements.resultsHeading.textContent = state.adventure
     ? `Recommended: ${state.adventure.preferenceLabel}`
     : selectedHub === "all" ? "All places & dining" : hubNames[selectedHub];
+
+  const hubDesc = (!state.adventure && selectedHub !== "all") ? hubDescriptions[selectedHub] : "";
+  if (hubDesc && elements.hubDescription) {
+    elements.hubDescription.textContent = hubDesc;
+    elements.hubDescription.hidden = false;
+  } else if (elements.hubDescription) {
+    elements.hubDescription.hidden = true;
+    elements.hubDescription.textContent = "";
+  }
+
   elements.resultsCount.textContent = `${places.length} place${places.length === 1 ? "" : "s"}`;
   elements.placeList.replaceChildren();
   state.markerLayer.clearLayers();
@@ -205,12 +233,14 @@ function createPlaceCard(place) {
   card.className = isFood ? "place-card food-card" : "place-card";
   card.id = `place-card-${place.id}`;
   const isSelected = state.selectedIds.includes(place.id);
-  const eyebrowText = isFood
-    ? `🍽️ Dining • ${escapeHtml(hubNames[place.hub] || place.hub)}`
-    : escapeHtml(hubNames[place.hub] || place.hub);
+  const imageUrl = place.imageUrl || 'https://images.unsplash.com/photo-1508873696983-2df5c92091c7?auto=format&fit=crop&w=800&q=80';
+  const eyebrowHtml = isFood ? `<p class="eyebrow food-eyebrow">🍽️ Dining</p>` : '';
   card.innerHTML = `
+    <div class="place-card-image">
+      <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(place.name)}" loading="lazy">
+    </div>
     <div class="place-card-content">
-      <p class="eyebrow ${isFood ? 'food-eyebrow' : ''}">${eyebrowText}</p>
+      ${eyebrowHtml}
       <h3 tabindex="-1">${escapeHtml(place.name)}</h3>
       <p>${escapeHtml(place.description)}</p>
       <p class="personal-note"><strong>Personal note:</strong> ${escapeHtml(place.personalNote)}</p>
