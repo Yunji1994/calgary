@@ -140,6 +140,24 @@
     "imageUrl": "https://images.unsplash.com/photo-1560008511-11c63416e52d?auto=format&fit=crop&w=800&q=80"
   },
   {
+    "id": "cold-garden-brewery",
+    "name": "Cold Garden Beverage Company",
+    "hub": "east-village-inglewood",
+    "category": [
+      "food",
+      "drink"
+    ],
+    "description": "Sip insanely creative craft beers amidst astro-turf, eclectic vintage furniture, and a delightfully welcoming neighbourhood brew-pub vibe.",
+    "personalNote": "A good brewery stop when extending the Inglewood walk south and east.",
+    "latitude": 51.0395331,
+    "longitude": -114.0367059,
+    "address": "1100 11 Street SE, Calgary, AB",
+    "bestTime": "Afternoon or evening",
+    "duration": "1–2 hours",
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/cold-garden.jpg"
+  },
+  {
     "id": "vero-bistro-moderne",
     "name": "Vero Bistro Moderne",
     "hub": "eau-claire-river",
