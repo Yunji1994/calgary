@@ -17,7 +17,7 @@
     "duration": "30 minutes to several hours",
     "tourismCalgaryUrl": "https://www.calgary.ca/bike-walk-roll/plus-15-network.html",
     "mapOverlay": "plus15",
-    "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "calgary-tower",
@@ -54,7 +54,7 @@
     "bestTime": "Midday or early evening",
     "duration": "1 hour",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/meeting-moments-on-stephen-avenue",
-    "imageUrl": "https://images.unsplash.com/photo-1517783999521-f3288f187a2d?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "the-bow",
@@ -72,7 +72,7 @@
     "bestTime": "Any time during daylight",
     "duration": "15 minutes",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/10-iconic-buildings-in-calgary",
-    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "central-library",
@@ -90,7 +90,7 @@
     "bestTime": "Daytime; check hours before visiting",
     "duration": "1 hour",
     "tourismCalgaryUrl": "https://www.calgarylibrary.ca/read-learn-and-explore/central-library",
-    "imageUrl": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "studio-bell",
@@ -108,7 +108,7 @@
     "bestTime": "Daytime; check hours before visiting",
     "duration": "2–3 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/indoor/studio-bell-home-of-the-national-music-centre",
-    "imageUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "inglewood-main-street",
@@ -127,7 +127,7 @@
     "bestTime": "Afternoon or evening",
     "duration": "1-2 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/shopping/specialty-shops/inglewood",
-    "imageUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "peace-bridge",
@@ -183,7 +183,7 @@
     "bestTime": "Morning",
     "duration": "3–5 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/outdoor/heritage-park-historical-village",
-    "imageUrl": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/heritage-park.jpg"
   },
   {
     "id": "bowness-park",
@@ -202,7 +202,7 @@
     "bestTime": "Any time; activities are seasonal",
     "duration": "2–3 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/bowness-park",
-    "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "fish-creek-park",
@@ -221,7 +221,7 @@
     "bestTime": "Daylight hours",
     "duration": "2 hours to a full day",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/fish-creek-provincial-park",
-    "imageUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "fish-creek-park-east",
@@ -240,7 +240,7 @@
     "bestTime": "Daylight hours",
     "duration": "2 hours to a full day",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/fish-creek-provincial-park",
-    "imageUrl": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "family-of-man",
@@ -258,7 +258,7 @@
     "bestTime": "Daylight hours",
     "duration": "15–30 minutes",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "tenth-and-tenth-mural",
@@ -295,7 +295,7 @@
     "bestTime": "During centre hours",
     "duration": "1–2 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1555529771-835f59fc5efe?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "devonian-gardens",
@@ -313,7 +313,7 @@
     "bestTime": "During CORE hours",
     "duration": "30–60 minutes",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "eighth-avenue-place",
@@ -331,7 +331,7 @@
     "bestTime": "Weekdays during building hours",
     "duration": "15–30 minutes",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "udderly-art-pasture",
@@ -349,7 +349,7 @@
     "bestTime": "Daylight hours",
     "duration": "10-15 minutes",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "seventeenth-avenue",
@@ -368,7 +368,7 @@
     "bestTime": "Evening for nightlife; daytime for shopping",
     "duration": "2–4 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/neighbourhoods/beltline",
-    "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "bump-mural-project",
@@ -386,7 +386,7 @@
     "bestTime": "Daylight hours",
     "duration": "15–30 minutes",
     "tourismCalgaryUrl": "https://yycbump.ca/projects/worlds-tallest-mural/",
-    "imageUrl": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/mural.jpg"
   },
   {
     "id": "lougheed-house",
@@ -405,7 +405,7 @@
     "bestTime": "Daytime; check hours before visiting",
     "duration": "1–2 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/lougheed-house",
-    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "the-confluence",
@@ -424,7 +424,7 @@
     "bestTime": "Daylight hours",
     "duration": "1–2 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/the-confluence",
-    "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "st-patricks-island",
@@ -443,7 +443,7 @@
     "bestTime": "Daylight hours",
     "duration": "1–2 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/st-patricks-island",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "esker-foundation",
@@ -461,7 +461,7 @@
     "bestTime": "Daytime; check gallery hours",
     "duration": "1–2 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "mchugh-bluff",
@@ -499,7 +499,7 @@
     "bestTime": "Summer evening",
     "duration": "30–60 minutes",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "riverwalk-west",
@@ -518,7 +518,7 @@
     "bestTime": "Any clear day",
     "duration": "1–2 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "gasoline-alley",
@@ -537,7 +537,7 @@
     "bestTime": "Morning or early afternoon",
     "duration": "1–2 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "baker-park",
@@ -556,7 +556,7 @@
     "bestTime": "Any clear day",
     "duration": "1–2 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "nose-hill-park",
@@ -575,7 +575,7 @@
     "bestTime": "Daylight hours",
     "duration": "1–3 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "inglewood-bird-sanctuary",
@@ -594,7 +594,7 @@
     "bestTime": "Morning or daylight hours",
     "duration": "1–2 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "north-glenmore-park",
@@ -613,7 +613,7 @@
     "bestTime": "Any clear day",
     "duration": "1–3 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "bow-river-rafting",
@@ -650,7 +650,7 @@
     "bestTime": "Early morning",
     "duration": "3–5 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/calgary-zoo",
-    "imageUrl": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "winsport",
@@ -669,7 +669,7 @@
     "bestTime": "Season-dependent",
     "duration": "2–4 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "cobbs-adventure-park",
@@ -687,7 +687,7 @@
     "bestTime": "Summer; check seasonal hours",
     "duration": "2–4 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "sam-centre",
@@ -706,7 +706,7 @@
     "bestTime": "Daytime; check hours and event dates",
     "duration": "2–3 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/sam-centre",
-    "imageUrl": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "hangar-flight-museum",
@@ -725,7 +725,7 @@
     "bestTime": "Daytime; check hours",
     "duration": "1–2 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   },
   {
     "id": "telus-spark",
@@ -744,6 +744,6 @@
     "bestTime": "Daytime; check hours",
     "duration": "2–4 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=800&q=80"
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
   }
 ]
