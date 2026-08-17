@@ -262,7 +262,7 @@
   },
   {
     "id": "tenth-and-tenth-mural",
-    "name": "10th & 10th Mural",
+    "name": "World's Tallest Mural",
     "hub": "downtown",
     "category": [
       "public-art",
@@ -272,10 +272,10 @@
     "personalNote": "Pin the mural itself rather than treating the whole block as the destination.",
     "latitude": 51.0431311,
     "longitude": -114.0638778,
-    "address": "First on Tenth, 123 10 Avenue SW, Calgary, AB",
+    "address": "123 10 Avenue SW, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "15–30 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "tourismCalgaryUrl": "https://yycbump.ca/projects/worlds-tallest-mural/",
     "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/mural.jpg"
   },
   {
@@ -349,26 +349,26 @@
     "address": "17 Avenue SW and 8 Street SW, Calgary, AB",
     "bestTime": "Evening for nightlife; daytime for shopping",
     "duration": "2–4 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/neighbourhoods/beltline",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/17th-ave-sw-guide",
+    "imageUrl": "https://cdn.visitcalgary.com/containers/media/food_drink/the-big-cheese-poutinerie/food-drink_the-big-cheese-poutinerie_outside.jpg/95a59362ae8a7a3f7937c7da36bf5ddd/food-drink_the-big-cheese-poutinerie_outside.webp"
   },
   {
     "id": "bump-mural-project",
-    "name": "BUMP Mural Project — World’s Tallest Mural",
+    "name": "BUMP Mural Project",
     "hub": "beltline",
     "category": [
       "public-art",
       "photography"
     ],
-    "description": "Tilt your head all the way back to marvel at a jaw-dropping monumental skyscraper mural that turns Calgary's skyline into a living canvas.",
-    "personalNote": "Pinned to First on Tenth at 123 10 Avenue SW, the location of the world’s-tallest-mural project.",
+    "description": "Launched in 2017 as the Beltline Urban Murals Project, BUMP Festival has evolved into Calgary’s most expansive public art initiative.",
+    "personalNote": "Check out the map in the link below for all mural locations!",
     "latitude": 51.0431311,
     "longitude": -114.0638778,
     "address": "First on Tenth, 123 10 Avenue SW, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "15–30 minutes",
-    "tourismCalgaryUrl": "https://yycbump.ca/projects/worlds-tallest-mural/",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/mural.jpg"
+    "tourismCalgaryUrl": "https://yycbump.ca/map/",
+    "imageUrl": "https://cdn.shortpixel.ai/spai/q_lossy+w_1704+to_webp+ret_img/yycbump.ca/wp-content/uploads/2025/07/A7401352.jpg"
   },
   {
     "id": "lougheed-house",
@@ -386,8 +386,8 @@
     "address": "707 13 Avenue SW, Calgary, AB",
     "bestTime": "Daytime; check hours before visiting",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/lougheed-house",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/arts-and-culture/museums/lougheed-house",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/15/12/46/lougheed-house-13-ave.jpg?w=1200&h=-1&s=1"
   },
   {
     "id": "the-confluence",
@@ -405,8 +405,8 @@
     "address": "750 9 Avenue SE, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/the-confluence",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.theconfluence.ca/about-the-confluence",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/66198f5a0583621cde5cfd1c/3e3046ca-d088-44ce-83ae-b41b05319028/The+Confluence+Aerial+Wide.png"
   },
   {
     "id": "st-patricks-island",
@@ -417,15 +417,15 @@
       "river",
       "walking"
     ],
-    "description": "Cross over to an award-winning island escape featuring sculptural play spaces, pebble beaches, a dramatic rising lookout mound, and tranquil river channels.",
-    "personalNote": "A natural extension of an East Village and RiverWalk outing.",
+    "description": "If you're along the east end of the River Walk, cross over to this island featuring funky sculptures, pebble beaches, a dramatic lookout mound, and river channels.",
+    "personalNote": "Depending on the time and day, this island can be quiet and tranquil or bustling with activity!",
     "latitude": 51.04741759621095,
     "longitude": -114.04170306774525,
     "address": "St. Patrick’s Island, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/st-patricks-island",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.evexperience.com/st-patricks-island",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5cdb13bf2727be3979909e4e/1563226478183-XLTXG9LTQ40FLKLGBYJU/DJI_0274.jpg?format=2500w"
   },
   {
     "id": "esker-foundation",
@@ -435,15 +435,15 @@
       "art",
       "culture"
     ],
-    "description": "Immerse your senses in thought-provoking, cutting-edge contemporary art inside a sunlit, beautifully curated gallery space overlooking Inglewood.",
+    "description": "Immerse your senses in this free contemporary art gallery inside a sunlit and spacious building overlooking Inglewood.",
     "personalNote": "Check the current exhibition and hours before building it into a route.",
     "latitude": 51.042511199002966,
     "longitude": -114.03880590264846,
     "address": "1011 9 Avenue SE, Calgary, AB",
     "bestTime": "Daytime; check gallery hours",
-    "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "duration": "1 hour",
+    "tourismCalgaryUrl": "https://www.avenuecalgary.com/Things-to-Do/Esker-Foundation/",
+    "imageUrl": "https://sp-ao.shortpixel.ai/client/to_auto,q_lossless,ret_img,w_1200/https://www.avenuecalgary.com/wp-content/uploads/2018/06/artBlock-20.jpg"
   },
   {
     "id": "mchugh-bluff",
@@ -461,7 +461,7 @@
     "address": "McHugh Bluff Stairs, Calgary, AB",
     "bestTime": "Evening in summer; daylight in winter",
     "duration": "30–60 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "tourismCalgaryUrl": "",
     "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/mchugh-bluff.jpg"
   },
   {
@@ -480,8 +480,8 @@
     "address": "Eau Claire Plaza, Calgary, AB",
     "bestTime": "Summer evening",
     "duration": "30–60 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.calgary.ca/parks/eau-claire-plaza.html",
+    "imageUrl": "https://sp-ao.shortpixel.ai/client/to_auto,q_lossless,ret_img,w_1598,h_900/https://www.avenuecalgary.com/wp-content/uploads/2025/07/Eau-Claire-Plaza-R5.png"
   },
   {
     "id": "riverwalk-west",
@@ -499,8 +499,8 @@
     "address": "Bow River pathway, Calgary, AB",
     "bestTime": "Any clear day",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.calgarymlc.ca/projects/jack-and-jean-leslie-riverwalk",
+    "imageUrl": "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2023/07/0725-west-riverwalk-copy.jpg"
   },
   {
     "id": "gasoline-alley",
@@ -518,8 +518,8 @@
     "address": "1900 Heritage Drive SW, Calgary, AB",
     "bestTime": "Morning or early afternoon",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://heritagepark.ca/exhibits/gasoline-alley-museum/",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAAqDSLGDM6atHdo0DoeYVtR5UUilRUcTnzcMDSdRWGlkylnta2F6pICE&s=10"
   },
   {
     "id": "baker-park",
@@ -531,14 +531,14 @@
       "walking"
     ],
     "description": "Unwind in immaculate formal riverside gardens featuring sweeping lawns, reflecting pools, and serene picnic spots overlooking the bend of the Bow.",
-    "personalNote": "A natural pairing with Bowness Park, although they are not the same park.",
+    "personalNote": "Across the road from Bowness Park, although they are not the same park.",
     "latitude": 51.1008513,
     "longitude": -114.220412,
     "address": "Baker Park, Calgary, AB",
     "bestTime": "Any clear day",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.calgary.ca/parks/baker-park.html",
+    "imageUrl": "https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/locations/northwest-parks/baker-park/baker-park-hero-banner02048px.jpg"
   },
   {
     "id": "nose-hill-park",
@@ -556,8 +556,8 @@
     "address": "Nose Hill Park, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "1–3 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.calgary.ca/parks/nose-hill-park.html",
+    "imageUrl": "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2025/07/siksikaitsitapi-medicine-wheel-nose-hill-park-_297748459.jpg"
   },
   {
     "id": "inglewood-bird-sanctuary",
@@ -575,8 +575,8 @@
     "address": "2425 9 Avenue SE, Calgary, AB",
     "bestTime": "Morning or daylight hours",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.calgary.ca/parks/inglewood-bird-sanctuary.html",
+    "imageUrl": "https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/locations/southeast-parks/forest-bathing-banner.jpg"
   },
   {
     "id": "north-glenmore-park",
@@ -594,8 +594,8 @@
     "address": "North Glenmore Park, Calgary, AB",
     "bestTime": "Any clear day",
     "duration": "1–3 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/glenmore.jpg"
   },
   {
     "id": "bow-river-rafting",
@@ -631,8 +631,8 @@
     "address": "1300 Zoo Road NE, Calgary, AB",
     "bestTime": "Early morning",
     "duration": "3–5 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/calgary-zoo",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.calgaryzoo.com/plan-your-visit/",
+    "imageUrl": "https://www.calgaryzoo.com/wp-content/uploads/2023/11/Polar-bears.00_00_16_11.Still003-2.jpg"
   },
   {
     "id": "winsport",
