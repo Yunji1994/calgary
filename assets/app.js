@@ -39,6 +39,7 @@ const elements = {
   hubDescription: document.querySelector("#hub-description"),
   resultsCount: document.querySelector("#results-count"),
   itineraryCount: document.querySelector("#itinerary-count"),
+  itineraryCountFloat: document.querySelector("#itinerary-count-float"),
   itineraryPanel: document.querySelector("#itinerary-panel"),
   itineraryList: document.querySelector("#itinerary-list"),
   overlay: document.querySelector("#overlay"),
@@ -191,7 +192,7 @@ function getFilteredPlaces() {
   const type = elements.typeFilter ? elements.typeFilter.value : "all";
   const query = elements.search.value.trim().toLowerCase();
   return state.places.filter(place => {
-    const matchesHub = hub === "all" || place.hub === hub;
+    const matchesHub = hub === "all" ? true : hub === "itinerary" ? state.selectedIds.includes(place.id) : place.hub === hub;
     const matchesType = type === "all" || place.type === type;
     const matchesAdventure = !state.adventure || state.adventure.hubs.includes(place.hub);
     const searchable = [place.name, place.description, ...(place.category || [])].join(" ").toLowerCase();
@@ -204,9 +205,9 @@ function renderPlaces() {
   const selectedHub = elements.hubFilter.value;
   elements.resultsHeading.textContent = state.adventure
     ? `Recommended: ${state.adventure.preferenceLabel}`
-    : selectedHub === "all" ? "All places & dining" : hubNames[selectedHub];
+    : selectedHub === "all" ? "All places & dining" : selectedHub === "itinerary" ? "My itinerary" : hubNames[selectedHub];
 
-  const hubDesc = (!state.adventure && selectedHub !== "all") ? hubDescriptions[selectedHub] : "";
+  const hubDesc = (!state.adventure && selectedHub !== "all" && selectedHub !== "itinerary") ? hubDescriptions[selectedHub] : "";
   if (hubDesc && elements.hubDescription) {
     elements.hubDescription.textContent = hubDesc;
     elements.hubDescription.hidden = false;
@@ -290,6 +291,20 @@ function focusHub(hub) {
     state.map.setView([51.045, -114.07], 12, { animate: true });
     return;
   }
+  if (hub === "itinerary") {
+    const places = state.selectedIds.map(id => state.places.find(place => place.id === id)).filter(Boolean);
+    if (!places.length) {
+      state.map.setView([51.045, -114.07], 12, { animate: true });
+      return;
+    }
+    const bounds = L.latLngBounds(places.map(place => [place.latitude, place.longitude]));
+    state.map.fitBounds(bounds, {
+      padding: [30, 30],
+      maxZoom: 14,
+      animate: true
+    });
+    return;
+  }
 
   const places = state.places.filter(place => place.hub === hub);
   if (!places.length) return;
@@ -329,6 +344,9 @@ function renderItinerary() {
     .map(id => state.places.find(place => place.id === id))
     .filter(Boolean);
   elements.itineraryCount.textContent = selectedPlaces.length;
+  if (elements.itineraryCountFloat) {
+    elements.itineraryCountFloat.textContent = selectedPlaces.length;
+  }
   elements.itineraryList.replaceChildren();
   elements.exportLinks.replaceChildren();
 
@@ -421,13 +439,23 @@ function setStatus(message) {
 function openItinerary() {
   elements.itineraryPanel.hidden = false;
   elements.overlay.hidden = false;
-  document.querySelector("#itinerary-toggle").setAttribute("aria-expanded", "true");
+  document.querySelector("#itinerary-toggle")?.setAttribute("aria-expanded", "true");
+  document.querySelector("#itinerary-float-toggle")?.setAttribute("aria-expanded", "true");
 }
 
 function closeItinerary() {
   elements.itineraryPanel.hidden = true;
   elements.overlay.hidden = true;
-  document.querySelector("#itinerary-toggle").setAttribute("aria-expanded", "false");
+  document.querySelector("#itinerary-toggle")?.setAttribute("aria-expanded", "false");
+  document.querySelector("#itinerary-float-toggle")?.setAttribute("aria-expanded", "false");
+}
+
+function toggleItinerary() {
+  if (elements.itineraryPanel.hidden) {
+    openItinerary();
+  } else {
+    closeItinerary();
+  }
 }
 
 const adventurePreferences = {
@@ -498,7 +526,8 @@ function bindEvents() {
     button.addEventListener("click", () => showAdventurePreferences(button.dataset.time));
   });
   document.querySelector("#reset-planner").addEventListener("click", resetAdventure);
-  document.querySelector("#itinerary-toggle").addEventListener("click", openItinerary);
+  document.querySelector("#itinerary-toggle").addEventListener("click", toggleItinerary);
+  document.querySelector("#itinerary-float-toggle")?.addEventListener("click", toggleItinerary);
   document.querySelector("#close-itinerary").addEventListener("click", closeItinerary);
   elements.overlay.addEventListener("click", closeItinerary);
   document.querySelector("#clear-itinerary").addEventListener("click", () => {

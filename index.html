@@ -45,6 +45,7 @@
         <label for="hub-filter">Show a hub</label>
         <select id="hub-filter">
           <option value="all">All hubs</option>
+          <option value="itinerary">My itinerary</option>
         </select>
       </div>
       <div>
@@ -105,6 +106,10 @@
     <button class="text-button" id="clear-itinerary" type="button">Clear itinerary</button>
   </aside>
   <div class="overlay" id="overlay" hidden></div>
+  <button class="itinerary-float-toggle" id="itinerary-float-toggle" type="button" aria-controls="itinerary-panel" aria-expanded="false" aria-label="Toggle itinerary">
+    <span class="float-icon">🗓️</span>
+    <span class="count-badge" id="itinerary-count-float">0</span>
+  </button>
 
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

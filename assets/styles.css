@@ -137,6 +137,41 @@ input:focus, select:focus { border-color: var(--calgary-blue); box-shadow: 0 0 0
 }
 
 .site-footer { padding: 34px 0; color: var(--muted); font-size: .85rem; border-top: 1px solid var(--line); margin-top: 40px; }
+
+/* Floating Itinerary Toggle */
+.itinerary-float-toggle {
+  position: fixed;
+  bottom: max(24px, env(safe-area-inset-bottom, 24px));
+  right: max(24px, env(safe-area-inset-right, 24px));
+  z-index: 25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 0;
+  background: var(--calgary-blue);
+  color: white;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  cursor: pointer;
+  transition: background .2s, transform .2s, box-shadow .2s;
+}
+.itinerary-float-toggle:hover {
+  background: var(--calgary-blue-dark);
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+.itinerary-float-toggle .float-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.itinerary-float-toggle .count-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  margin-left: 0;
+}
 @media (max-width: 800px) {
   .planner-options { grid-template-columns: 1fr; }
   .planner-option { min-height: 70px; }
