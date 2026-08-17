@@ -17,7 +17,7 @@
     "duration": "30 minutes to several hours",
     "tourismCalgaryUrl": "https://www.calgary.ca/bike-walk-roll/plus-15-network.html",
     "mapOverlay": "plus15",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Plus_15_sign_and_walkway_Calgary.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
   },
   {
     "id": "calgary-tower",
@@ -54,7 +54,7 @@
     "bestTime": "Midday or early evening",
     "duration": "1 hour",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/meeting-moments-on-stephen-avenue",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "imageUrl": "https://www.calgary.ca/content/dam/www/pda/pd/publishingimages/current-projects/stephen-avenue/stephen-ave-banner-2400px.jpg"
   },
   {
     "id": "the-bow",
@@ -72,7 +72,7 @@
     "bestTime": "Any time during daylight",
     "duration": "15 minutes",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/10-iconic-buildings-in-calgary",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "imageUrl": "https://i0.wp.com/landofthebigs.com/wp-content/uploads/2022/08/Insertcaptionhere-1024x1024.jpg?ssl=1"
   },
   {
     "id": "central-library",
@@ -90,7 +90,7 @@
     "bestTime": "Daytime; check hours before visiting",
     "duration": "1 hour",
     "tourismCalgaryUrl": "https://www.calgarylibrary.ca/read-learn-and-explore/central-library",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "imageUrl": "https://cdn.visitcalgary.com/containers/listings/2025_calgary-public-library-central.jpg/f07e3b7e4ed527faf695079c44ffe693/2025_calgary-public-library-central.jpg"
   },
   {
     "id": "studio-bell",
@@ -108,7 +108,7 @@
     "bestTime": "Daytime; check hours before visiting",
     "duration": "2–3 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/indoor/studio-bell-home-of-the-national-music-centre",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "imageUrl": "https://www.studiobell.ca/assets/images/_1200x600_crop_center-center_none/StudioBell_crBittermannPhotography-LR-1.jpg"
   },
   {
     "id": "inglewood-main-street",
@@ -127,7 +127,7 @@
     "bestTime": "Afternoon or evening",
     "duration": "1-2 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/shopping/specialty-shops/inglewood",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "imageUrl": "https://images.trvl-media.com/place/6287729/193136ab-37b6-4d47-8ce2-eea461a71c72.jpg"
   },
   {
     "id": "peace-bridge",
@@ -183,7 +183,7 @@
     "bestTime": "Morning",
     "duration": "3–5 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/outdoor/heritage-park-historical-village",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/heritage-park.jpg"
+    "imageUrl": "https://cdn.sanity.io/images/lr9tta69/production/809ef5a1e95af9a5ed6f2c1ad1ee357a6c8d0f4c-5087x3391.jpg"
   },
   {
     "id": "bowness-park",
@@ -201,8 +201,8 @@
     "address": "8900 48 Avenue NW, Bowness, Calgary, AB",
     "bestTime": "Any time; activities are seasonal",
     "duration": "2–3 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/bowness-park",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.calgary.ca/parks/bowness-park.html",
+    "imageUrl": "https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/locations/northwest-parks/bowness-lagoon-banner.jpg"
   },
   {
     "id": "fish-creek-park",
@@ -257,8 +257,8 @@
     "address": "6 Avenue SE, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "15–30 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.cbc.ca/news/canada/calgary/brotherhood-of-mankind-calgary-art-1.3579629",
+    "imageUrl": "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2025/03/2025035002_Calgary_Family-of-Man_artwork_JW002-copy.jpg"
   },
   {
     "id": "tenth-and-tenth-mural",

@@ -250,13 +250,12 @@ function createPlaceCard(place) {
           ${isSelected ? "Added to itinerary" : "Add to itinerary"}
         </button>
         <button class="secondary-button map-button" type="button" data-place-id="${place.id}">Show on map</button>
-        <a href="${escapeHtml(place.tourismCalgaryUrl)}" target="_blank" rel="noopener">${isFood ? "Dining Info ↗" : "Tourism Calgary ↗"}</a>
+        <a href="${escapeHtml(place.tourismCalgaryUrl)}" target="_blank" rel="noopener">${isFood ? "Dining Info ↗" : "More Info ↗"}</a>
       </div>
     </div>
   `;
   card.querySelector(".add-button").addEventListener("click", () => addToItinerary(place.id));
   card.querySelector(".map-button").addEventListener("click", () => showPlaceOnMap(place.id));
-  card.addEventListener("mouseenter", () => focusPlace(place.id));
   return card;
 }
 
