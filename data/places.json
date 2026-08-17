@@ -205,8 +205,8 @@
     "imageUrl": "https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/locations/northwest-parks/bowness-lagoon-banner.jpg"
   },
   {
-    "id": "fish-creek-park",
-    "name": "Fish Creek Provincial Park",
+    "id": "fish-creek-park-west",
+    "name": "Fish Creek Provincial Park - West",
     "hub": "parks-in-the-city",
     "category": [
       "park",
@@ -220,8 +220,8 @@
     "address": "Fish Creek Provincial Park, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "2 hours to a full day",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/fish-creek-provincial-park",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.albertaparks.ca/parks/kananaskis/fish-creek-pp/",
+    "imageUrl": "https://i0.wp.com/parksofcalgary.com/wp-content/uploads/2023/10/IMG_3207.jpg?resize=800%2C600&ssl=1"
   },
   {
     "id": "fish-creek-park-east",
@@ -239,8 +239,8 @@
     "address": "Bow Valley Ranch, 15975 Bow Bottom Trail SE, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "2 hours to a full day",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/fish-creek-provincial-park",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.albertaparks.ca/parks/kananaskis/fish-creek-pp/",
+    "imageUrl": "https://www.creb.com/-/media/Public/CREBcom/News/CREBNow/2019/January/Social_3.jpg"
   },
   {
     "id": "family-of-man",
@@ -294,26 +294,8 @@
     "address": "317 7 Avenue SW, Calgary, AB",
     "bestTime": "During centre hours",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
-  },
-  {
-    "id": "devonian-gardens",
-    "name": "Devonian Gardens",
-    "hub": "downtown",
-    "category": [
-      "garden",
-      "family"
-    ],
-    "description": "Breathe in the humidity of a lush indoor oasis featuring tropical palms, reflecting pools, and quiet pathways suspended high above the city chill.",
-    "personalNote": "Especially useful as a warm, quiet break during a downtown walk.",
-    "latitude": 51.0462283,
-    "longitude": -114.068758,
-    "address": "317 7 Avenue SW, Calgary, AB",
-    "bestTime": "During CORE hours",
-    "duration": "30–60 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/parks-and-recreation/parks/devonian-gardens",
+    "imageUrl": "https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/locations/downtown-parks/devonian-gardens-south-garden-content-block.jpg"
   },
   {
     "id": "eighth-avenue-place",
@@ -330,8 +312,8 @@
     "address": "513 8 Avenue SW, Calgary, AB",
     "bestTime": "Weekdays during building hours",
     "duration": "15–30 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "",
+    "imageUrl": "https://www.eighthavenueplace.com/wp-content/uploads/2023/09/our-ownership-image.jpg?x39224"
   },
   {
     "id": "udderly-art-pasture",
@@ -348,8 +330,8 @@
     "address": "608 9 Avenue SW, Calgary, AB",
     "bestTime": "Daylight hours",
     "duration": "10-15 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.avenuecalgary.com/city-life/the-story-of-calgarys-cow-sculptures/",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/50e1b9c6e4b015296ce398f6/1384985089078-41PNHHOL7FB01O3N3D3H/MooneyTrader.JPG"
   },
   {
     "id": "seventeenth-avenue",

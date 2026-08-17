@@ -235,6 +235,9 @@ function createPlaceCard(place) {
   const isSelected = state.selectedIds.includes(place.id);
   const imageUrl = place.imageUrl || 'https://images.unsplash.com/photo-1508873696983-2df5c92091c7?auto=format&fit=crop&w=800&q=80';
   const eyebrowHtml = isFood ? `<p class="eyebrow food-eyebrow">🍽️ Dining</p>` : '';
+  const linkHtml = place.tourismCalgaryUrl && place.tourismCalgaryUrl.trim() !== ""
+    ? `<a href="${escapeHtml(place.tourismCalgaryUrl)}" target="_blank" rel="noopener">${isFood ? "Dining Info ↗" : "More Info ↗"}</a>`
+    : '';
   card.innerHTML = `
     <div class="place-card-image">
       <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(place.name)}" loading="lazy">
@@ -250,7 +253,7 @@ function createPlaceCard(place) {
           ${isSelected ? "Added to itinerary" : "Add to itinerary"}
         </button>
         <button class="secondary-button map-button" type="button" data-place-id="${place.id}">Show on map</button>
-        <a href="${escapeHtml(place.tourismCalgaryUrl)}" target="_blank" rel="noopener">${isFood ? "Dining Info ↗" : "More Info ↗"}</a>
+        ${linkHtml}
       </div>
     </div>
   `;
