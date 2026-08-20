@@ -51,6 +51,8 @@ label { display: block; margin-bottom: 6px; color: var(--muted); font-size: .85r
 input, select { width: 100%; border: 1px solid var(--line); border-radius: 8px; background: white; padding: 11px 12px; color: var(--ink); outline: none; transition: border-color .2s, box-shadow .2s; }
 input:focus, select:focus { border-color: var(--calgary-blue); box-shadow: 0 0 0 3px rgba(0,83,159,0.15); }
 .explore-layout { display: grid; grid-template-columns: minmax(300px, 1fr) minmax(320px, 1fr); gap: 28px; align-items: start; }
+.explore-layout > * { min-width: 0; }
+.details-panel { min-width: 0; }
 .map { position: sticky; top: 20px; height: 650px; border: 2px solid var(--line); border-radius: 14px; overflow: hidden; background: #E2E8F0; box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
 .map-source { margin: 8px 2px 0; color: var(--muted); font-size: .78rem; }
 .section-heading { display: flex; justify-content: space-between; gap: 16px; align-items: end; margin-bottom: 14px; }
@@ -172,14 +174,42 @@ input:focus, select:focus { border-color: var(--calgary-blue); box-shadow: 0 0 0
   right: -4px;
   margin-left: 0;
 }
+@media (min-width: 801px) {
+  /* Keep the map in view while only the attraction details panel scrolls. */
+  .explore-layout {
+    height: calc(100vh - 40px);
+    min-height: 500px;
+    align-items: stretch;
+  }
+  .explore-layout > div {
+    min-height: 0;
+  }
+  .map {
+    height: 100%;
+    min-height: 0;
+  }
+  .details-panel {
+    height: 100%;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 20px 14px 20px 20px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: #F1F5F9;
+    scrollbar-gutter: stable;
+  }
+}
+
 @media (max-width: 800px) {
   .planner-options { grid-template-columns: 1fr; }
   .planner-option { min-height: 70px; }
   .header-inner { align-items: start; flex-direction: column; }
   .toolbar { align-items: stretch; flex-direction: column; }
   .toolbar > div { max-width: none; }
-  .explore-layout { display: block; }
+  .explore-layout { display: block; height: auto; min-height: 0; }
   .map { position: relative; top: auto; height: 380px; margin-bottom: 26px; }
+  .details-panel { height: auto; overflow: visible; padding: 0; border: 0; background: transparent; }
   .card-actions { align-items: stretch; }
   .card-actions .map-button { order: 2; }
   .card-actions a { align-self: center; }
