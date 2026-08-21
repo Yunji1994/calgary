@@ -256,7 +256,7 @@
     "longitude": -114.0599527,
     "address": "6 Avenue SE, Calgary, AB",
     "bestTime": "Daylight hours",
-    "duration": "15–30 minutes",
+    "duration": "15 minutes",
     "tourismCalgaryUrl": "https://www.cbc.ca/news/canada/calgary/brotherhood-of-mankind-calgary-art-1.3579629",
     "imageUrl": "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2025/03/2025035002_Calgary_Family-of-Man_artwork_JW002-copy.jpg"
   },
@@ -269,7 +269,7 @@
       "photography"
     ],
     "description": "Turn the corner into an open-air gallery where vibrant, larger-than-life street art transforms an ordinary downtown intersection into a striking visual landmark.",
-    "personalNote": "Pin the mural itself rather than treating the whole block as the destination.",
+    "personalNote": "See the BUMP mural festival to learn more about this and hundreds of other murals across downtown Calgary!",
     "latitude": 51.0431311,
     "longitude": -114.0638778,
     "address": "123 10 Avenue SW, Calgary, AB",
@@ -288,7 +288,7 @@
       "architecture"
     ],
     "description": "Shop under soaring glass vaults before stepping directly into a lush, tropical indoor jungle hidden high above the downtown streets.",
-    "personalNote": "A useful indoor stop in winter and a natural Plus 15 connection.",
+    "personalNote": "A useful indoor stop in winter and has many +15 connections to other buildings.",
     "latitude": 51.0462283,
     "longitude": -114.068758,
     "address": "317 7 Avenue SW, Calgary, AB",
@@ -324,7 +324,7 @@
       "family"
     ],
     "description": "Spot an unexpected herd of whimsically painted, larger-than-life fiberglass cows adding a splash of quirky artistic joy to the urban streetscape.",
-    "personalNote": "The current legacy display is associated with Centennial Parkade; confirm the display before visiting.",
+    "personalNote": "The current legacy display is in the +15 at the Centennial Parkade, but you might also spot them randomly around Calgary!",
     "latitude": 51.04511070167294,
     "longitude": -114.07490101151147,
     "address": "608 9 Avenue SW, Calgary, AB",
@@ -361,12 +361,12 @@
       "photography"
     ],
     "description": "Launched in 2017 as the Beltline Urban Murals Project, BUMP Festival has evolved into Calgary’s most expansive public art initiative.",
-    "personalNote": "Check out the map in the link below for all mural locations!",
+    "personalNote": "I think this is a super cool urban art project. Check out the map in the link below for all mural locations!",
     "latitude": 51.0431311,
     "longitude": -114.0638778,
     "address": "First on Tenth, 123 10 Avenue SW, Calgary, AB",
     "bestTime": "Daylight hours",
-    "duration": "15–30 minutes",
+    "duration": "1-2 hours",
     "tourismCalgaryUrl": "https://yycbump.ca/map/",
     "imageUrl": "https://cdn.shortpixel.ai/spai/q_lossy+w_1704+to_webp+ret_img/yycbump.ca/wp-content/uploads/2025/07/A7401352.jpg"
   },
@@ -380,7 +380,7 @@
       "garden"
     ],
     "description": "Step back into the opulent Victorian era inside a magnificent 1891 sandstone estate surrounded by immaculately manicured historic gardens.",
-    "personalNote": "A calmer contrast to the restaurants and nightlife of 17th Avenue.",
+    "personalNote": "A nice spot to chill and rest in the gardens.",
     "latitude": 51.0405964,
     "longitude": -114.0771672,
     "address": "707 13 Avenue SW, Calgary, AB",
@@ -399,12 +399,12 @@
       "river"
     ],
     "description": "Stand at the sacred meeting of the Bow and Elbow Rivers, where centuries of Indigenous heritage and Calgary’s founding stories come alive in expansive parklands.",
-    "personalNote": "The site is the modern successor to the Fort Calgary location and redevelopment.",
+    "personalNote": "The museum itself is nothing crazy, but lots of festivals happen here; so if you're in the area, worth stopping by outside!",
     "latitude": 51.0450561,
     "longitude": -114.0454135,
     "address": "750 9 Avenue SE, Calgary, AB",
     "bestTime": "Daylight hours",
-    "duration": "1–2 hours",
+    "duration": "30-60 minutes",
     "tourismCalgaryUrl": "https://www.theconfluence.ca/about-the-confluence",
     "imageUrl": "https://images.squarespace-cdn.com/content/v1/66198f5a0583621cde5cfd1c/3e3046ca-d088-44ce-83ae-b41b05319028/The+Confluence+Aerial+Wide.png"
   },
@@ -455,7 +455,7 @@
       "walking"
     ],
     "description": "Conquer the scenic wooden staircase to the clifftop rim for an unbeatable, postcard-worthy panorama of the downtown skyline framed by the river valley.",
-    "personalNote": "One of the strongest skyline viewpoints in the city; allow time for the stairs.",
+    "personalNote": "One of the most scenic skyline viewpoints in the city; you can park at the top of the hill and walk down the stairs towards Prince's Island Park to get to downtown.",
     "latitude": 51.0588862,
     "longitude": -114.0678001,
     "address": "McHugh Bluff Stairs, Calgary, AB",
@@ -474,7 +474,7 @@
       "walking"
     ],
     "description": "Bask in riverside relaxation at a vibrant downtown gathering square where shimmering fountains and bustling pathway cyclists set the rhythm of the city.",
-    "personalNote": "Check current construction and access conditions before visiting.",
+    "personalNote": "Eau Claire and the west end of downtown also hosts lots of festivals in the summer.",
     "latitude": 51.0531048,
     "longitude": -114.0697731,
     "address": "Eau Claire Plaza, Calgary, AB",
@@ -568,7 +568,7 @@
       "nature",
       "wildlife"
     ],
-    "description": "Slip into a tranquil, wildlife-rich sanctuary where whispering wetlands and shaded forest trails offer a serene escape from the urban rush.",
+    "description": "Slip into a tranquil, occasionally wildlife-rich sanctuary where whispering wetlands and shaded forest trails offer a serene escape from the urban rush.",
     "personalNote": "A quieter alternative to the busier Inglewood commercial strip.",
     "latitude": 51.0278952,
     "longitude": -114.0069574,
@@ -650,8 +650,8 @@
     "address": "88 Canada Olympic Road SW, Calgary, AB",
     "bestTime": "Season-dependent",
     "duration": "2–4 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/winsport-guide",
+    "imageUrl": "https://www.winsport.ca/assets/blog/DJI_0211.JPG"
   },
   {
     "id": "cobbs-adventure-park",
@@ -662,14 +662,14 @@
       "adventure"
     ],
     "description": "Dive into pure family-friendly pandemonium across bouncy pillows, petting farms, mini-golf courses, and action-packed outdoor mazes.",
-    "personalNote": "Confirm the current opening dates and activities before visiting.",
+    "personalNote": "I only know about this place because the owners also own a mechanics shop called Cetus Automotive that has kangaroos from their exotic animal rescue. Now that's one way to encourage an oil change!",
     "latitude": 51.06692752408581,
     "longitude": -113.90967121550771,
     "address": "1500 84 Street NE, Calgary, AB",
     "bestTime": "Summer; check seasonal hours",
     "duration": "2–4 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://cobbsadventurepark.com/visitor-info/",
+    "imageUrl": "https://cobbsadventurepark.com/wp-content/uploads/2023/01/cobbs-adventure-park-staring-roo-uai-1440x1440.jpg"
   },
   {
     "id": "sam-centre",
@@ -687,8 +687,8 @@
     "address": "1911 Big Four Trail SE, Calgary, AB",
     "bestTime": "Daytime; check hours and event dates",
     "duration": "2–3 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/attractions/sam-centre",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/sam-centre-guide",
+    "imageUrl": "https://cdn.visitcalgary.com/containers/media/sam-centre.jpg/450caca563fad5c4c2b2849beaada7b8/sam-centre.webp"
   },
   {
     "id": "hangar-flight-museum",
@@ -700,14 +700,14 @@
       "family"
     ],
     "description": "Walk among legendary vintage aircraft and aerospace marvels that chronicle Canada’s daring aviation pioneers.",
-    "personalNote": "A good indoor option and an easy pairing with the Calgary Zoo area.",
+    "personalNote": "Perfect if you're into planes, engineering, or history.",
     "latitude": 51.0939735,
     "longitude": -114.0137596,
     "address": "4629 McCall Way NE, Calgary, AB",
     "bestTime": "Daytime; check hours",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://thehangarmuseum.ca/",
+    "imageUrl": "https://cdn.sanity.io/images/lr9tta69/production/104568c4e5f0dca48e1f77c242170b2d5b77fbee-640x480.jpg"
   },
   {
     "id": "telus-spark",
@@ -725,7 +725,7 @@
     "address": "220 St. George’s Drive NE, Calgary, AB",
     "bestTime": "Daytime; check hours",
     "duration": "2–4 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/your-guide-to-telus-spark",
+    "imageUrl": "https://images.prismic.io/telusspark/df3da90f-8518-4aa2-860d-ec3e296e7ede_TELUS+SPARK_Building.jpg?auto=compress,format&rect=0,126,2808,1474&w=1200&h=630"
   }
 ]
