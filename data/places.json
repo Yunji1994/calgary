@@ -727,5 +727,42 @@
     "duration": "2–4 hours",
     "tourismCalgaryUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/your-guide-to-telus-spark",
     "imageUrl": "https://images.prismic.io/telusspark/df3da90f-8518-4aa2-860d-ec3e296e7ede_TELUS+SPARK_Building.jpg?auto=compress,format&rect=0,126,2808,1474&w=1200&h=630"
+  },
+  {
+    "id": "reader-garden",
+    "name": "Reader Rock Garden",
+    "hub": "parks-in-the-city",
+    "category": [
+      "garden",
+      "park",
+      "museum"
+    ],
+    "description": "This historic garden created in 1913 was started by William Roland Reader, who transformed a bare hillside into an internationally-acclaimed garden.",
+    "personalNote": "It's both a beautiful garden and a historical site. Free to visit.",
+    "latitude": 51.030378715921465, 
+    "longitude": -114.05662937416403,
+    "address": "325 25 Ave SE, Calgary, AB T2A 7H8",
+    "bestTime": "Daytime; check hours",
+    "duration": "1-2 hours",
+    "tourismCalgaryUrl": "https://www.calgary.ca/parks/reader-rock-garden.html",
+    "imageUrl": "https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/facilities-rentals-and-bookings/wedding-venue/reader-rock-garden-weddings-outdoor-house.jpg"
+  },
+  {
+    "id": "contemporary-calgary",
+    "name": "Contemporary Calgary",
+    "hub": "eau-claire-river",
+    "category": [
+      "art",
+      "events"
+    ],
+    "description": "A public art gallery presenting local, national and international contemporary art in all its forms.",
+    "personalNote": "The venue also hosts many free events and conferences - check their schedule for details.",
+    "latitude": 51.04746765158102, 
+    "longitude": -114.08915732260672,
+    "address": "701 11 St SW, Calgary, AB T2P 2C4",
+    "bestTime": "Check opening hours",
+    "duration": "1-2 hours",
+    "tourismCalgaryUrl": "https://www.contemporarycalgary.com/",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5b087e18aa49a12aeb01e8e4/dd42facd-23f5-45de-bf2d-3b08fb68ff82/Contemporary+Calgary%2C+Atrium%2C+photography+by+Jamie+Anholt_.jpg"
   }
 ]
