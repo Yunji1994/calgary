@@ -17,8 +17,8 @@
     "address": "110 8 Ave SW, Calgary, AB",
     "bestTime": "Lunch and dinner",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "https://www.kleinharris.com/",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/food.jpg"
   },
   {
     "id": "kawa-espresso-bar",
@@ -38,8 +38,8 @@
     "longitude": -114.08182135796656,
     "bestTime": "Late night hangouts & coffee",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/food.jpg"
   },
   {
     "id": "bridgette-bar",
@@ -58,8 +58,8 @@
     "longitude": -114.07864904447416,
     "bestTime": "Evening / Dinner",
     "duration": "2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/food.jpg"
   },
   {
     "id": "posto-pizzeria",
@@ -78,8 +78,8 @@
     "longitude": -114.08116123587672,
     "bestTime": "Evening & late night",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/food.jpg"
   },
   {
     "id": "kama",
@@ -98,8 +98,8 @@
     "longitude": -114.06713208680237,
     "bestTime": "Dinner",
     "duration": "2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/food.jpg"
   },
   {
     "id": "zcrew-cafe",
@@ -117,7 +117,7 @@
     "longitude": -114.05567018865369,
     "bestTime": "Morning / Brunch",
     "duration": "1–1.5 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
+    "tourismCalgaryUrl": "",
     "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/ZCREW.jpg"
   },
   {
@@ -136,8 +136,8 @@
     "longitude": -114.05397784993943,
     "bestTime": "Afternoon or evening",
     "duration": "30 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "",
+    "imageUrl": "https://cdn.sanity.io/images/lr9tta69/production/d84cd6ac704b2d91b683a7aec53661eaf6eb0072-640x480.jpg?w=1920&q=77&fit=max&auto=format"
   },
   {
     "id": "cold-garden-brewery",
@@ -154,7 +154,7 @@
     "address": "1100 11 Street SE, Calgary, AB",
     "bestTime": "Afternoon or evening",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do",
+    "tourismCalgaryUrl": "",
     "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/cold-garden.jpg"
   },
   {
@@ -174,8 +174,8 @@
     "longitude": -114.08599048495073,
     "bestTime": "Dinner",
     "duration": "2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/food.jpg"
   },
   {
     "id": "bubblemania",
@@ -194,8 +194,8 @@
     "longitude": -114.05381308680121,
     "bestTime": "Afternoon or evening",
     "duration": "45 minutes",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/food.jpg"
   },
   {
     "id": "ikusa-izakaya",
@@ -215,8 +215,8 @@
     "longitude": -114.04123835796604,
     "bestTime": "Lunch or dinner",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/food.jpg"
   },
   {
     "id": "fourth-spot-kitchen",
@@ -236,7 +236,7 @@
     "longitude": -114.07146077701097,
     "bestTime": "Lunch or dinner",
     "duration": "1–2 hours",
-    "tourismCalgaryUrl": "https://www.visitcalgary.com/things-to-do/dining",
-    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/tower.jpg"
+    "tourismCalgaryUrl": "",
+    "imageUrl": "https://pub-4858b0783c8a4fb391d3177814a94da2.r2.dev/food.jpg"
   }
 ]
