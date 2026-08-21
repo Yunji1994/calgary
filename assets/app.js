@@ -21,7 +21,7 @@ const hubNames = {
 };
 
 const hubDescriptions = {
-  downtown: "Calgary's bustling commercial heart, featuring soaring skyscrapers, historic Stephen Avenue pedestrian walk, the extensive underground and above-ground Plus 15 skywalk network, and iconic landmarks like the Calgary Tower.",
+  downtown: "Calgary's bustling commercial heart, featuring an extensive above-ground skywalk network (the Plus 15), a historic Stephen Avenue pedestrian street, and iconic landmarks like the Calgary Tower. Pro-tip: the LRT train line running east-west is free to ride inside of downtown (between 8th Street SW and City Hall Station).",
   beltline: "A vibrant, walkable urban neighbourhood just south of downtown known for its lively restaurant and patio culture, trendy coffee shops, craft breweries, and eclectic nightlife.",
   "east-village-inglewood": "Where Calgary's oldest historic neighbourhood meets futuristic urban design. Explore indie boutiques, antique shops, craft makers, the striking Central Library, and Studio Bell along the river.",
   "eau-claire-river": "A scenic natural corridor along the Bow River featuring Prince's Island Park, the architectural masterpiece Peace Bridge, and miles of picturesque pathways ideal for walking and cycling.",
